@@ -1,0 +1,22 @@
+
+1.F: Erzählen Sie mir etwas über framework!
+
+--> #1 ART DES VERWENDETEN UND ENTWORFENEN RAHMENS
+
+Ich verwende das Cucumber BDD Framework.
+Ich verwende das POM-Designmuster für UI-Tests.
+Hinweis: Falls sie nach mehr Details fragen, erkläre kurz, was sie sind.
+
+--> #2 WELCHE WERKZEUGE WIR FÜR UI-TESTS VERWENDEN
+
+Ich verwende Java als Programmiersprache und nutze alle OOP-Konzepte.
+Ich verwende Selenium für UI-Tests.
+Ich nutze die RestAssured-Bibliothek für API-Tests.
+Ich verwende JDBC für Datenbankvalidierungstests.
+
+--> #3 ÜBERWACHUNG
+
+In meinem Framework ist es möglich, Screenshots und Videomitschnitte für fehlgeschlagene Tests zu erhalten.
+Ich verwende Cucumber-HTML-Berichte, um einen Bericht zu erstellen.
+Ich nutze Confluence, um eine bessere Dokumentation zu erstellen.
+Ich habe meine Testfälle in JiraXray-TestRail erstellt ???
