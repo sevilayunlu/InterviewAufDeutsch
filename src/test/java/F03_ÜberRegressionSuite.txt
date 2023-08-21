@@ -1,0 +1,20 @@
+
+2.F: Wie viele Testfälle haben Sie in Ihrer Regressionssuite? Wie lange dauert ein Durchlauf?
+
+2.A: Die Anzahl der Testfälle in einer Regressionssuite und die Dauer eines Durchlaufs hängen von verschiedenen Faktoren ab, wie zum Beispiel:
+     ● Der Umfang der Änderungen an der Software seit dem letzten Durchlauf der Regressionssuite
+     ● Die Anzahl der Funktionen und Module in der Software
+     ● Die Komplexität der Testfälle und die Dauer, die zum Ausführen jeder Testfall benötigt wird
+     ● Die verfügbare Ressourcen wie z.B. Zeit, Personal und Technologie
+     ● Die Geschwindigkeit und Leistung des verwendeten Testwerkzeugs
+
+     Von Asya`s Class:
+     •	In meinem Projekt führen wir Regressionstests durch, um zu überprüfen, ob die neuen Funktionen mit den alten funktionieren, und um sicherzustellen, dass eine Änderung keine bestehende Funktionalität beeinträchtigt hat.
+     •	Wir führen alle 3 Monate vor der Veröffentlichung Regressionstests durch.
+     •	Es gibt etwa 700 Testfälle.
+     •	Die automatisierten Testfälle werden mit 3 virtuellen Maschinen parallel ausgeführt, was etwa 1 Stunde dauert.
+     •	Die nicht automatisierten Testfälle werden manuell von allen Testern ausgeführt (was eine Woche bzw. einen Sprint dauert).
+
+     ACHTUNG: Sie können natürlich was anders im Interview erwähnen aber wir wollen einfach ein Paar SchlüsselWörter sammeln um später erinnern zu können:)
+
+
