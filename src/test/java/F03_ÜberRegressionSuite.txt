@@ -1,7 +1,7 @@
 
-2.F: Wie viele Testfälle haben Sie in Ihrer Regressionssuite? Wie lange dauert ein Durchlauf?
+3.F: Wie viele Testfälle haben Sie in Ihrer Regressionssuite? Wie lange dauert ein Durchlauf?
 
-2.A: Die Anzahl der Testfälle in einer Regressionssuite und die Dauer eines Durchlaufs hängen von verschiedenen Faktoren ab, wie zum Beispiel:
+3.A: Die Anzahl der Testfälle in einer Regressionssuite und die Dauer eines Durchlaufs hängen von verschiedenen Faktoren ab, wie zum Beispiel:
      ● Der Umfang der Änderungen an der Software seit dem letzten Durchlauf der Regressionssuite
      ● Die Anzahl der Funktionen und Module in der Software
      ● Die Komplexität der Testfälle und die Dauer, die zum Ausführen jeder Testfall benötigt wird

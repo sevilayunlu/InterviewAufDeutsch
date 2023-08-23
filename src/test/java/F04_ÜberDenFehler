@@ -1,0 +1,27 @@
+
+4.F: Was bedeutet "Schwere(Severity) und Priorität (Priority) des Defekt"?
+
+4.A: Die Schwere und Priorität eines Defekt oder Fehlers sind wichtige Kategorien,
+     die bei der Meldung und Behandlung von Fehlern in einer Softwareanwendung
+     verwendet werden.
+
+     Die Schwere des Fehlers beschreibt, wie schwerwiegend die Auswirkungen des
+     Fehlers auf die Funktionalität der Softwareanwendung sind. Sie wird in der Regel
+     auf einer Skala von 1 bis 5 oder ähnlich bewertet. Eine Schwerebewertung von 1
+     bedeutet, dass der Fehler nur geringe Auswirkungen auf die Software hat und sie
+     immer noch funktionsfähig ist, während eine Bewertung von 5 bedeutet, dass die
+     Softwareanwendung aufgrund des Fehlers vollständig unbrauchbar ist.
+
+     Die Priorität des Fehlers beschreibt, wie dringend der Fehler behoben werden
+     muss. Sie wird in der Regel auf einer Skala von 1 bis 5 oder ähnlich bewertet.
+     Eine Prioritätsbewertung von 1 bedeutet, dass der Fehler sofort behoben werden
+     muss, während eine Bewertung von 5 bedeutet, dass der Fehler zu einem
+     späteren Zeitpunkt behoben werden kann.
+
+     Die Bewertung von Schwere und Priorität eines Fehlers hilft dem
+     Entwicklungsteam, den Fokus auf die dringendsten Probleme zu legen und
+     sicherzustellen, dass diese zuerst behoben werden. Es ist wichtig, dass der
+     Melder des Fehlers die Schwere und Priorität des Fehlers klar kommuniziert, um
+     sicherzustellen, dass das Entwicklungsteam den Fehler entsprechend behandelt.
+
+     (Note: Ich finde diese Erklärung ganz gut und genug)
