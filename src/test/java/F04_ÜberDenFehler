@@ -25,3 +25,41 @@
      sicherzustellen, dass das Entwicklungsteam den Fehler entsprechend behandelt.
 
      (Note: Ich finde diese Erklärung ganz gut und genug)
+
+  F: Wenn sie einen Defekt finden, wie berichten Sie es? [1.6]
+
+    A: Wenn du einen Defekt findest, meldest du ihn auf folgende Weise:
+    #Notieren: Schreibe auf, was genau der Defekt ist und wo du ihn entdeckt hast.
+   	#Melden: Teile den Defekt den Verantwortlichen im Unternehmen mit. Du kannst dafür E-Mail, Nachrichten oder persönliche Gespräche verwenden.
+   	#Details hinzufügen: Beschreibe den Defekt so deutlich wie möglich. Wenn du Fotos oder Screenshots hast, füge sie hinzu, um es verständlicher zu machen.
+   	#Dringlichkeit betonen: Wenn der Defekt wichtig ist, weise darauf hin. Wenn er Geschäftsprozesse beeinträchtigt, ist eine schnelle Reaktion wichtig.
+   	#Nachfragen: Frage nach dem Fortschritt bei der Behebung des Defekts. Halte dich über Updates auf dem Laufenden.
+    #Lösung dokumentieren: Sobald der Defekt behoben ist, halte die Lösungsschritte schriftlich fest. Das kann bei ähnlichen Problemen in der Zukunft hilfreich sein.
+    Beachte, dass jede Organisation ihre eigenen Vorgehensweisen haben kann. Achte darauf, den internen Richtlinien für die Meldung von Defekten zu folgen.
+
+
+F: Wie öffnet man ein Bug Ticket (Vorgehensweise?), welche Art von Details sollten darin enthalten sein?[1.13]
+
+A:  Um ein Bug Ticket zu öffnen, können Sie je nach Organisation oder Unternehmen verschiedene Tools oder Systeme verwenden, um den Fehler zu melden.
+    In der Regel gibt es ein Formular oder einen Bereich in einem System, in dem Sie alle relevanten Details des Fehlers eingeben können.
+
+    Der Inhalt eines Bug-Tickets kann je nach den internen Prozessen und Anforderungen einer Organisation variieren,
+sollte jedoch im Allgemeinen die folgenden Informationen enthalten:
+
+    #Titel/Überschrift: Eine kurze, präzise Zusammenfassung des Fehlers oder Problems, um den Lesern einen schnellen Überblick zu verschaffen.
+    #Beschreibung: Eine ausführlichere Erklärung des Fehlers.
+    #Fehlertyp: Es sollte angegeben werden, um welche Art von Problem es sich handelt (z. B. Funktionsausfall, Datenbankfehler, Benutzeroberflächenproblem usw.).
+    #Schritte zur Reproduktion: Eine Liste von Schritten, die befolgt werden können, um den Fehler zu reproduzieren.
+    #Erwartetes Verhalten: Eine Beschreibung, wie die Software sich verhalten sollte, wenn der Fehler nicht auftritt.
+    #Aktuelles Verhalten: Eine Beschreibung dessen, was tatsächlich passiert, wenn der Fehler auftritt.
+    #Umfeld/Umgebung: Informationen über die Umgebung, in der der Fehler auftritt, wie zum Beispiel Betriebssystem, Version der Software, Hardware, Netzwerkbedingungen usw.
+    #Screenshots/Anhänge: Bilder oder Dateien, die den Fehler visuell dokumentieren oder weitere Informationen liefern können.
+    #Priorität und Schweregrad: Eine Einschätzung der Dringlichkeit und Auswirkungen des Fehlers auf die Software.
+    #Status und Verlauf: Informationen darüber, ob der Fehler reproduziert wurde, ob er behoben wurde oder ob weitere Informationen benötigt werden.
+    #Kontaktinformationen: Die Kontaktdaten der Person, die das Ticket erstellt hat, falls weitere Fragen oder Informationen benötigt werden.
+
+    Der genaue Inhalt kann je nach den internen Prozessen und Tools Ihrer Organisation variieren.
+    Es ist wichtig, so viele relevante Informationen wie möglich bereitzustellen, um den Entwicklern zu helfen, den Fehler effizient zu identifizieren und zu beheben.
+
+
+
