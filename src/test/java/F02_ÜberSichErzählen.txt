@@ -1,0 +1,32 @@
+Erzählen Sie etwas über sich:
+
+#Ibrahim
+Bevor ich anfange, möchte ich mich bei Ihnen bedanken, dass Sie mir diese Gelegenheit geben und ich schätze Ihre Zeit sehr.
+Ich habe eine intensiv zehnmonatige Weiterbildung um SDET.
+
+Während meiner Weiterbildung hatte ich die Möglichkeit, an verschiedenen realen Projekten zu arbeiten, -
+nicht nur im Bereich der Automatisierung, sondern auch im Bereich der manuellen und Back-End-Tests.
+
+In meinem laufenden Projekt, das ich wegen der Zeitverschiebung gerade beende, habe ich eine SDET-Position in meinem Team und meine Hauptaufgaben sind -
+das Design, die Entwicklung und die Pflege des Testautomatisierung-Frameworks, das die User Storys und Systemanforderungen verifiziert.
+
+Ich habe Erfahrung mit UI-, API- und Datenbank-Validierungstests. Außerdem führe ich FUNKTIONS-,
+SMOKE- und REGRESSIONSTESTE für den UI-Teil und API-Tests für das Backend durch.
+
+Ich habe mich auf JAVA und alle Konzepte der objektorientierten Programmierung spezialisiert.
+Ich benutze SELENIUM als Automatisierungstool mit CUCUMBER BDD Framework und POM Design Pattern für UI Testing.
+
+Ich habe Kenntnisse in SQL-Abfragen und benutze JDBC für Datenbank Validierungstests.
+
+für API-Tests verwende ich POSTMAN und REST ASSURED LIBRARY.
+
+Ich erreiche kontinuierliche Integration und plane meine Testausführungen mit Jenkins.
+
+Ich verwende GIT zur Versionskontrolle und JIRA zur Fehlerverfolgung und als Projektmanagement-Tool.
+
+Ich bin mit agilen Umgebungen vertraut und arbeite derzeit in einem Scrum-Team und beherrsche alle sprintbezogenen Scrum-Zeremonien.
+
+Was die Soft Skills betrifft, so halte ich mich für eine positive, kooperative und unterstützende Person.
+Ich kann sowohl einzeln als auch im Team gut arbeiten. Ich bin anpassungsfähig an sich ändernde Umstände und Umgebungen,
+ich lerne schnell, lerne leidenschaftlich gerne neue Fähigkeiten und neue Technologien und achte immer darauf, dass ich die Fristen einhalte.
+Das ist so ziemlich alles über mich.
