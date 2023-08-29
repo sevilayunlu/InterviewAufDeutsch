@@ -30,3 +30,35 @@ Was die Soft Skills betrifft, so halte ich mich für eine positive, kooperative 
 Ich kann sowohl einzeln als auch im Team gut arbeiten. Ich bin anpassungsfähig an sich ändernde Umstände und Umgebungen,
 ich lerne schnell, lerne leidenschaftlich gerne neue Fähigkeiten und neue Technologien und achte immer darauf, dass ich die Fristen einhalte.
 Das ist so ziemlich alles über mich.
+
+
+#Sevilay
+
+Zunächst einmal möchte ich mich bei Ihnen dafür bedanken, dass Sie mir diese Gelegenheit geben, und ich schätze Ihre Zeit wirklich.
+
+Ich arbeite seit einem Jahr professionell in der IT. Tatsächlich bin ich in den letzten 5 Jahren in diesem Bereich tätig,
+weil ich auch Online-Shops auf E-Commerce-Websites betreibe, und wie Sie wissen, sollten Sie unbedingt über den Algorithmus der Website
+Bescheid wissen, wenn Sie Ihre Verkäufe steigern möchten.
+
+Ich habe meinen Abschluss an der CYDEO-Codierschule gemacht, und während des Lernens, wie man testet,
+hatte ich auch großartige Gelegenheiten, an verschiedenen Projekten für UI, für die Datenbank und für API-Tests teilzunehmen.
+
+Ich habe mich auf Automatisierung spezialisiert, bin aber auch sehr vertraut mit manuellen und Backend-Tests.
+
+Derzeit habe ich eine Position als SDET in meinem Team und meine Hauptverantwortung besteht darin,
+ein Testautomatisierungs-Framework zu entwerfen, zu entwickeln und zu pflegen, das Benutzerstories und Systemanforderungen überprüft.
+
+Ich habe praktische Erfahrung in UI-, API- und Datenbanktests. Meine Rolle in meinem Unternehmen umfasst das Ausführen von FUNKTIONSTESTS,
+SMOKE-TESTS und REGRESSIONSTESTS für den UI-Teil sowie API-Tests für das Backend.
+
+Ich bin vertraut mit agilen UMGEBUNGEN und arbeite derzeit in einem Scrum-Team und bin kompetent in allen sprintbezogenen Scrum-Zeremonien.
+
+Ich habe auch mein ISTQB-Zertifikat.
+
+Ich bin ein Mitglied eines interdisziplinären Teams. Was Soft Skills betrifft, betrachte ich mich als positiven Menschen,
+der sich an verändernde Umstände anpassen kann.
+
+Ich kann sowohl alleine als auch im Team gut arbeiten. Ich bin detailorientiert, ein schneller Lerner, leidenschaftlich daran interessiert,
+neue Fähigkeiten und neue Technologien zu erlernen, und sorge immer dafür, dass ich die Fristen einhalte.
+Das ist so ziemlich alles über mich.
+
