@@ -1,0 +1,218 @@
+17.Können Sie Ihre tägliche Aktivität beschreiben?
+
+Ich beginne den Tag damit, den Ergebnisbericht des Smoke-Tests zu überprüfen, um sicherzustellen,
+die Enviroment betriebsbereit ist und die Application stabil ist oder nicht für den Tag.
+"Jenkins sendet eine E-Mail an das Team, wenn während der Smoke-Tests ein Fehler auftritt, bevor alle zur Arbeit kommen."
+Danach überprüfe ich E-Mails auf wichtige Aufgaben oder Benachrichtigungen.
+und überprüfe den täglichen Zeitplan und plane Meetings für den Tag.
+Dazu öffne ich Jira zum Priorisieren und Planen von Aufgaben.
+Um halb neun Uhr nehme ich am täglichen Stand-Up-Meeting mit dem Scrum-Team teil.
+Wir besprechen den Fortschritt vom Vortag, geplante Aufgaben für den aktuellen Tag und eventuelle Hindernisse.
+Wenn es ein Hindernis gibt, diskutieren wir es hier. Dieses Meeting dauert in der Regel 15 Minuten.
+Danach beginne ich mit der Automatisierung von Testfällen aus den Regressionssuiten.
+Wenn manuelle Testfälle erfolgreich sind, automatisiere ich sie auch für den Sprint-Backlog.
+Wenn wir uns dem Ende des Sprints nähern, konzentriere ich mich darauf, Automatisierungsaufgaben abzuschließen.
+Ich bereite mich auf die Sprint-Demo vor und halte die Präsentation.
+Außerdem nehme ich einmal pro Woche an wöchentlichen Code-Review-Meetings teil.
+Wir überprüfen gemeinsam den Code und geben Feedback. Code-Reviews helfen, die Softwarequalität zu verbessern
+und das Teamwork zu fördern.
+
+
+18.Können Sie Scrum erklären?
+
+Scrum ist ein Framework oder eine Managementmethode, die verwendet wird, um Softwareentwicklungsprojekte schnell und
+flexibel zu verwalten. Scrum zerlegt das Projekt in kleine, handhabbare Teile und zielt darauf ab,
+diese Teile innerhalb eines festgelegten Zeitraums (normalerweise 2-4 Wochen) abzuschließen.
+Dieser Prozess wird regelmäßig wiederholt, und am Ende jeder Iteration steht ein Stück fertiges Produkt.
+Zu den Kernkomponenten von Scrum gehören der Product Owner (Produkteigentümer), der Scrum Master und das Development Team.
+Scrum fördert eine enge Zusammenarbeit, kontinuierlichen Feedbackaustausch und Flexibilität.
+
+Kennen Sie Agile-Scrum?
+Ich habe Erfahrung in der Arbeit in der Agile-Scrum-Environment, die eine Reihe von Meetings, Tools und Rollen beschreibt,
+die zusammenarbeiten, um Teams dabei zu helfen, ihre Arbeit zu strukturieren und zu verwalten.
+In meinem Team: Wir haben einen 2-wöchigen Sprintzyklus implementiert Ich habe insgesamt {number} Personen in meinem Team
+– 1 PO, 1SM, {number} Entwickler und {number} QAs Während des Sprints führen wir alle Scrum-Zeremonien/Meetings durch:
+Grooming-Meeting (Refinement) beginnt am ersten Tag jedes Sprints; Alle Scrum-Mitglieder schließen sich
+an Der PO erklärt dem Entwicklerteam die US und wir schätzen die Punkte basierend auf Fibonacci.
+Sprintplanungsmeeting folgt, um das Sprintziel mit den genauen Aufgaben/US zu identifizieren.
+Wir ziehen/wählen US/Aufgaben vom PB zum SB basierend auf unserer Teamkapazität und den DOR-Kriterien.
+Jeden Morgen um {time} führen wir ein tägliches Stand-up-Meeting durch, um unseren Aufgabenstatus zu aktualisieren,
+indem wir drei beantworten [Fragen]. Das Burn-Down-Diagramm hilft uns vorherzusagen, wann alle Arbeiten abgeschlossen
+sein werden. Am letzten Tag des Sprints haben wir das Demo-Meeting mit dem Kunden, um unsere abgeschlossenen Arbeiten
+zu präsentieren. PO akzeptiert/lehnt die Arbeiten basierend auf den DOD-Kriterien unseres Teams ab.
+Alle akzeptierten Arbeiten sind das Produktinkrement, und alle nicht abgeschlossenen/abgelehnten Arbeiten gehen zurück
+an den PB, und wir werden sie beim nächsten Grooming-Meeting besprechen.wir führen ein Retro-Meeting mit dem SM und dem
+Dev-Team durch; Dieses Treffen hilft uns, unser Entwicklerteam zu finden, um es zu erstellen Verbesserungsmöglichkeiten.
+Wir überprüfen, wie der letzte Sprint in Bezug auf Personen, Interaktionen, Prozesse und Tools gelaufen ist,
+indem wir drei Fragen beantworten - {Qs}
+
+19.Die erforderlichen Eigenschaften eines Software-Testers?
+Bu soruya cevap olarak Agile Tester Syllabustan bir baslik ekledim.
+Bu soru tamamen istqb perspektif ölcmek icin sorulmus gibi.
+Alttaki linkte ki baslik okunup ona göre de bir cevap olusturulabilir kisa bir cevap olusturmaya calistim.
+
+https://www.german-testing-board.info/wp-content/uploads/2016/07/Certified-Tester-Foundation-Level-Extension-
+Syllabus-Agile-Tester-%E2%80%93-Deutsch.pdf
+
+ 2.3.1 Seite 29
+
+Kisa bir cevap olarak:
+
+Ein Tester sollte grundlegende Testkenntnisse besitzen sowie Erfahrung in Testautomatisierung und Testentwicklung.
+Er oder sie sollte mit verschiedenen Testansätzen vertraut sein, darunter White-Box-Tests, Black-Box-Tests und
+erfahrungsbasierte Tests. Kommunikationsfähigkeiten sind entscheidend, da Agile Methoden kontinuierliche Zusammenarbeit
+erfordern. Kritisches Denken ist wichtig, um Produktqualität zu bewerten und Fehler zu erkennen. Die Fähigkeit
+zur Anpassung an Veränderungen und effiziente Arbeitsorganisation sind ebenfalls von großer Bedeutung.
+Zusätzlich zur technischen Kompetenz ist die Entwicklung zwischenmenschlicher Fähigkeiten ein Schlüsselmerkmal
+für einen erfolgreichen Agile Tester."
+
+
+20--SPRINTI ANLAT DEDILER
+Bu soruya cevap olarak 18 . soru degerlendirilebilir. Sadece sprint tanimi istenirse de
+
+Scrum Sprint ist ein Zeitraum von etwa 2 bis 4 Wochen, in dem ein Entwicklungsteam bestimmte Aufgaben erledigt,
+um ein Ziel zu erreichen.
+
+21.Projeni Anlat
+
+Herkes kendi sectigi projeye göre bir cevap hazirlar
+
+22.Calistigin firma domainleri
+Bu soruda projeye göre degisikli gösterir buna cevap olarak proje url‘i verilebilir. Mesela benim proje CRM ise
+
+https://openlycrm.com/
+
+23."Warum haben Sie vorher 4 Monate lang in Ihrem vorherigen Job gearbeitet?"
+
+Vielen Dank für Ihre Frage. In meiner vorherigen Stelle hatte ich ein projektbasiertes Arbeitsmodell.
+Ich habe 4 Monate lang an diesem Projekt gearbeitet und dazu beigetragen, dass das Projekt erfolgreich abgeschlossen wurde.
+Allerdings ergab sich eine neue Gelegenheit, und das Projekt in meiner aktuellen Position trägt größere Verantwortung,
+weshalb ich mich entschieden habe, mich diesem Projekt anzuschließen. Mein aktuelles Projekt läuft immer noch,
+und wir arbeiten als Team daran, unsere Ziele zu erreichen. Meine früheren Erfahrungen haben mir geholfen, meine
+Fähigkeiten im Projektmanagement und in der Teamarbeit weiterzuentwickeln, und ich setze diese Fähigkeiten auch
+in diesem neuen Projekt ein.
+
+
+24."Bezeichnen Sie sich selbst als SDET oder als <"Lehrer">?"
+
+Vielen Dank für Ihre Frage. Derzeit konzentriere ich mich auf meine Karriere als IT QA Tester und
+sammle Erfahrungen in diesem Bereich. Meine Vergangenheit als Mathematiklehrer hat jedoch eine wichtige Grundlage
+für mich geschaffen. Die analytischen Denkfähigkeiten und Problemlösungsfähigkeiten, die ich während meiner Zeit
+als Mathematiklehrer erworben habe, sind auch in meiner Rolle als QA-Tester in der IT-Welt von großem Vorteil.
+Ich habe meine Karriere als Mathematiker begonnen, aber derzeit ist es für mich aufregend, in der IT-Branche zu arbeiten.
+
+
+25--"Wenn Sie an Ihre Erfahrungen als Lehrer denken, in welchem Bereich würden Sie sagen, warst du erfolgreich?"
+
+Wenn ich über meine Lehrerfahrung nachdenke, denke ich, dass meine Erfolge hauptsächlich auf folgenden Fähigkeiten basieren:
+Kommunikation: Effektive Kommunikation mit Schülern und Eltern.
+Problem lösen: Identifikation und Lösung von Lernschwierigkeiten der Schüler.
+Geduld und Empathie: Geduld und Verständnis für die individuellen Bedürfnisse der Schüler.
+Analytisches Denken: Analyse von Daten zur Bewertung des Schülerfortschritts.
+Planung und Organisation: Erstellung von Lehrplänen und effiziente Klassenorganisation.
+Teamarbeit: Zusammenarbeit mit anderen Lehrern und Personal
+
+26.Wo siehst du dich in den kommenden Jahren?"
+
+Der Punkt ist, ich plane, in diesem Unternehmen zu bleiben. Ich bin wirklich begeistert von dieser Position
+bei (UNTERNEHMENSNAME), weil ich mich in fünf Jahren als jemanden mit tiefgreifender Expertise im Bereich Testing
+sehen möchte, und ich weiß, dass ich hier die Möglichkeit dazu haben werde. Auf diese Weise glaube ich, dass ich
+einen qualitativen Mehrwert für das Unternehmen schaffen werde.
+
+
+27.klasik bir gununu anlat,projende
+
+soru 17 ye bakilabilir
+
+28.Wie hast du Fehler gemeldet, wenn du welche gefunden hast?
+
+
+Wenn ich einen Fehler gefunden habe, habe ich immer einen strukturierten Ansatz zur Fehlerberichterstattung verfolgt.
+Zunächst habe ich den Fehler reproduziert, um sicherzustellen, dass er konsistent ist. Dann habe ich alle relevanten
+Informationen gesammelt, wie zum Beispiel die Schritte zur Reproduktion, den erwarteten und den tatsächlichen Ergebnissen
+sowie Screenshots oder Log-Dateien, falls verfügbar.Anschließend habe ich einen Fehlerbericht erstellt, der alle
+diese Informationen zusammenfasste. Ich habe darauf geachtet, den Fehler so präzise wie möglich zu beschreiben,
+damit das Entwicklerteam den Fehler leicht nachvollziehen konnte. Darüber hinaus habe ich immer den Fehlergrad angegeben,
+um zu verdeutlichen, wie schwerwiegend der Fehler war und welchen Einfluss er auf die Anwendung haben könnte.
+Schließlich habe ich den Fehlerbericht an das Entwicklerteam weitergeleitet und bei Bedarf eng mit ihnen
+zusammengearbeitet, um sicherzustellen, dass der Fehler korrekt verstanden wurde. Diese Herangehensweise hat sich
+bewährt, um die Fehlerbehebung effizient und effektiv zu gestalten.
+
+
+29."Schreiben Sie Automation für jede Aufgabe, oder ist es notwendig
+
+Zunächst einmal sollten Sie überlegen, ob eine User Story wirklich automatisiert werden muss. Hierbei ist es wichtig zu
+berücksichtigen, wie viel Wert diese Story für das Produkt hat und wie dringend sie ist. Besonders wichtige und oft
+genutzte Stories sind in der Regel gute Kandidaten für die Automatisierung.Des Weiteren sollten Sie bedenken, dass die
+Automatisierung dazu beitragen kann, sicherzustellen, dass bestehende Funktionen auch nach neuen Änderungen weiterhin
+reibungslos funktionieren. Wenn manuelle Tests wiederholt durchgeführt werden müssen oder viel Zeit in Anspruch nehmen,
+kann es oft effizienter sein,diese Tests zu automatisieren.Allerdings sollten Sie beachten, dass Automatisierung
+schwierig sein kann, wenn sich eine User Story ständig ändert.Komplexität spielt ebenfalls eine Rolle. Wenn eine User
+Story komplex ist und verschiedene Szenarien abdeckt, kann die Automatisierung dazu beitragen, diese Vielfalt zu bewältigen.
+
+Zusammengefasst: Die Entscheidung zur Automatisierung sollte für jede User Story individuell getroffen werden, da jede
+ihre eigenen Anforderungen hat.
+
+Yada kisaca
+
+• Wenn die Testfälle eine hohe Priorität haben.
+• Wenn es sich um kritische Funktionalitäten handelt.
+• Bei Shakeout- oder Smoke-Testfällen.
+• Wenn die Testfälle zu lang und zu komplex sind, um manuell durchgeführt zu werden.
+Die Regressionstestfälle werden nach Priorität ausgewählt.
+• Wir sollten so viel wie möglich automatisieren.
+
+Wann würden Sie NICHT automatisieren?
+• Wenn sich die Funktionalität ständig ändert.
+• Wenn die Funktionalität im gesamten Projekt nur einmal verwendet wird.
+• Ad-hoc-Tests können nicht automatisiert werden.
+
+30--Warum ist Automatisierung wichtig?
+
+Automatisierung beschleunigt und optimiert Software-Testprozesse. Sie reduziert den Zeit- und Arbeitsaufwand, der für
+manuelle Tests erforderlich ist. Dadurch können neue Funktionen schneller getestet und auf den Markt gebracht werden.
+Einer der größten Vorteile der Automatisierung ist die Möglichkeit, einmal geschriebene Testfall-Szenarien immer
+wiederzuverwenden. Dies erleichtert und beschleunigt kontinuierliche Tests erheblich.
+
+Welche Vorteile kann Automatisierung haben?
+
+Automatisierung ermöglicht die frühzeitige Erkennung von Fehlern. Dies trägt dazu bei, Fehler schneller zu beheben.
+Zudem führt Automatisierung zu Zeit- und Kosteneinsparungen. Die benötigte Zeit und die Arbeitskosten für manuelle Tests
+werden reduziert. Automatisierung verbessert die Zuverlässigkeit von Testergebnissen, da menschliche Fehler minimiert
+werden. Sie kann rund um die Uhr oder in kontinuierlichen Integrationsprozessen arbeiten, wodurch unterbrechungsfreie
+Tests möglich werden.
+
+wer trifft diese Entscheidung?
+Die Entscheidung darüber, welche User Stories automatisiert werden sollten, wird in der Regel in Zusammenarbeit zwischen
+dem QA-Team und dem Entwicklungsteam getroffen.
+Gemeinsam mit dem Scrum-Team entscheiden wir, welche US automatisiert werden sollen.
+
+
+31--Hast du persönlich zu den aktuellen Projekten beigetragen, gab es Änderungen in Tools oder hast du den Entwicklern
+Vorschläge gemacht?
+
+Ja, ich habe persönlich wichtige Beiträge in meinem letzten Projekt geleistet. Anfangs gab es in der Anwendung nur sehr
+wenige "id"-Elemente, sodass ich Stunden damit verbringen musste, Elemente auf meiner POM-Projektoberfläche zu finden.
+Daraufhin habe ich mit den Entwicklern und anderen Teammitgliedern kommuniziert und wir haben gemeinsam eine Lösung
+gefunden, die es mir ermöglichte, "id"-Elemente in der Anwendung selbst hinzuzufügen. Das war großartig für mich, denn
+es hat meine Zeit und die Zeit der anderen gespart. Statt Zeit damit zu verbringen, Elemente zu lokalisieren, konnte ich
+meine Zeit besser darauf verwenden, Automatisierungstestskripte zu erstellen und auszuführen.
+Außerdem liebe ich es, neue Tools zu finden und zu nutzen. Bevor ich dem Team beigetreten bin, wurden nur
+Bildschirmaufnahmen im PNG-Format gemacht. Aber ich habe begonnen, GIF-animierte Bilder mit Notizen zu verwenden, was es
+den Entwicklern viel einfacher gemacht hat, das Problem zu verstehen.
+
+32--Was erwartest du von deinem Arbeitgeber?
+
+Von meinem Arbeitgeber erwarte ich klare Kommunikation, ein gutes Arbeitsumfeld und berufliche Entwicklungs möglichkeiten.
+
+33.Java bilgini 10 uzerinden kac olarak tanimlarsin?(burda bir task verdi bu ne cikti verir dedi)
+herkes kendine göre cevap verebilir ama kisaca
+
+"Ich verwende das OOP-Konzept und alle erforderlichen Java-Kenntnisse in meinem Framework für Testautomatisierung."
+
+34--"Hattest du jemals Probleme mit deinen Teamkollegen, und wie gehst du damit um, wenn das passiert?"
+
+Es ist nichts Persönliches. Jeder denkt an die Vorteile des Unternehmens, daher möchte ich meine Anliegen erklären und
+darauf achten, dass seine/ihre Erklärung für mich Sinn ergibt. - Natürlich kann ich die Dinge tun, die meinem Unternehmen
+am meisten helfen. Daher versuche ich, mit ihm/ihr zu kommunizieren, und ich würde versuchen, das Anliegen zu verstehen.
+Denn jeder hat das gleiche Ziel und möchte die Arbeit erfolgreich erledigen.
