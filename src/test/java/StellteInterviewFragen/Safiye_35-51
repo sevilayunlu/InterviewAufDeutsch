@@ -1,0 +1,130 @@
+Interview Fragen
+
+35. Beziehen die Fibonacci-Zahlen sich auf die Anzahl der Tage?
+
+- Die Fibonacci-Zahlen in Scrum oft für die Schätzung von Aufgaben verwendet,und sie repräsentieren normalerweise keine Tage,
+  sondern eher den relativen Aufwand oder die Komplexität einer Aufgabe im Vergleich zu anderen Aufgaben.
+
+36. Wir werden ständig auf Fortschritte von dir warten müssen. Bist du darauf vorbereitet?
+
+- Ja, ich bin definitiv darauf vorbereitet.
+  In agilen Arbeitsumgebungen wie Scrum ist regelmäßige Kommunikation und das Teilen von Fortschritten ein Schlüsselfaktor.
+
+37. Was ist dein größter Erfolg?
+
+-
+
+38. Wo siehst du dich in 5 Jahren?
+
+- In fünf Jahren sehe ich mich in einer Position, in der ich meine Fähigkeiten und Erfahrungen weiter ausgebaut habe.
+  Ich möchte in der Lage sein, komplexe technische Probleme zu lösen und ein Mentor für jüngere Teammitglieder zu sein.
+  Außerdem strebe ich an, einen Beitrag zur strategischen Entwicklung des Unternehmens zu leisten.
+
+39. Was sind deine Stärken?
+
+-  Zu meinen Stärken gehören meine Fähigkeiten im Bereich Software testing, Testautomatisierung und Qualitätssicherung,
+   die mir helfen, effektiv in meiner Rolle zu arbeiten.
+   wie z.B -> Ich bin sehr organisiert und kann gut priorisieren, um Projekte effizient voranzutreiben.
+              Darüber hinaus schätze ich gute Kommunikation und Teamarbeit.
+
+40. Was sind deine Schwächen?
+
+- (Jeder sollte seine eigene Schwäche benennen)
+
+41. Wie lange würdest du gerne in unserem Unternehmen arbeiten, wenn wir dich einstellen?
+
+-  Ich strebe an, langfristig in einem Unternehmen zu arbeiten, in dem ich mich fachlich und persönlich weiterentwickeln kann.
+   Mein Ziel ist es, einen nachhaltigen Beitrag zu leisten und Teil des Teams zu sein, das zur Erfolgsgeschichte des Unternehmens beiträgt.
+
+42. Was versteht man unter "clean - sauberem Code"?
+
+- Code muss einfach, lesbar, wartbar und natürlich korrekt sein.
+Clean Code prinzipien -
+1- KISS -> Keep It Simple and Stupid   (Halte es einfach und dumm)
+2- DRY -> Don’t Repeat Yourself        (Wiederhol dich nicht)
+3- YAGNI -> You aren’t gonna need it   (Du wirst es nicht brauchen) -> Redundanz, unnötige und ungebrauchte Codes minimieren
+
+43. Kannst du die Testpyramide erklären?
+
+- Die Pyramide der agilen Testautomatisierung ist ein grafischer Leitfaden für die Implementierung automatisierter Softwaretests.
+  Das Modell unterteilt die Testarten in drei Schichten, basierend auf dem Return on Investment (ROI), den die Automatisierung der jeweiligen Testart biete
+
+---> An der Basis der Pyramide befinden sich die grundlegenden ->  Unit-Tests (Komponententests)
+---> Auf dem mittleren Level befinden sich                     ->  Die Integrationstests
+---> oben auf der Pyramide                                     ->  System Tests (E2E, UI)
+
+Die Idee ist, dass die meisten Tests auf niedrigeren Ebenen (wie Unit Tests) liegen sollten,
+während UI-Tests seltener und teurer sein können. Dies hilft, die Testabdeckung effizient zu gestalten.
+
+Ekstra
+FYI: ROI ist eine Möglichkeit, herauszufinden, ob eine Investition, sei es Geld, Zeit oder Ressourcen, profitabel/rentabel ist oder nicht.
+ Es hilft, zu verstehen, ob das, was Sie in etwas investieren, Ihnen am Ende mehr zurückgibt, als Sie ursprünglich investiert haben.
+
+
+44. Was bedeutet Kommunikation und Zusammenarbeit für dich?
+
+-  Kommunikation und Zusammenarbeit sind für mich entscheidend/wichtig.
+   Kommunikation bedeutet ->   Ideen und Informationen klar und effektiv zu teilen, um Missverständnisse zu vermeiden.
+   Zusammenarbeit bedeutet ->  gemeinsam an Zielen zu arbeiten, die nur als Team erreicht werden können.
+   Beides fördert ein positives Arbeitsumfeld und bessere Ergebnisse.
+
+45. Wie hast du Automatisierung gelernt?
+
+- Ich habe Automatisierung während meiner berufsausbildung gelernt. Ich habe eine Coding School(Programmierschule) besucht.
+Gleichzeitig mit dem Erwerb des Grundwissens, habe ich dieses in realen Projekten angewendet
+und dabei von erfahrenen Kollegen und Mentoren wertvolle Einblicke und Best Practices erhalten.
+Darüber hinaus bin ich immer offen für neue Technologien und Entwicklungen in diesem Bereich, um meine Fähigkeiten kontinuierlich zu verbessern.
+
+
+46. Was hast du in deinem vorherigen Unternehmen verändert?
+
+- In meinem vorherigen Unternehmen habe ich dazu beigetragen, den Testprozess zu optimieren und die Testautomatisierung zu implementieren. Wir haben manuelle Tests reduziert(%70 falls wird gefragt) und wichtige Testfälle automatisiert, was zu Zeit- und Kosteneinsparungen führte.
+Außerdem habe ich dazu beigetragen, die Kommunikation zwischen Entwicklern und Testern zu verbessern, was die Qualität der Software und die Geschwindigkeit der Bereitstellung erhöht hat.
+
+47. Was tust du, um deine Fähigkeiten zu verbessern?
+
+- Um meine Fähigkeiten kontinuierlich zu verbessern, lese ich regelmäßig Blogs(wie Medium) in meinem Fachgebiet.
+ Außerdem arbeite ich an persönlichen Projekte um praktische Erfahrungen zu sammeln.
+ Ich bin auch offen für konstruktives Feedback von Kollegen, um meine Fähigkeiten gezielt zu entwickeln.
+
+48. Wer erstellt den Testplan?
+
+- In der Regel wird der Testplan in enger Zusammenarbeit zwischen den QA-Managern/Teamleitern und den QA-Teammitgliedern erstellt.
+Während des Planungsmeetings diskutiert das QA-Team die verschiedenen Aspekte des Testplans darunter;
+   - den Umfang der Tests
+   - die Rollen und Verantwortlichkeiten der Tester
+   - die Teststrategie (welche Funktionen getestet werden, welche Testtypen und Tools verwendet werden, und die erforderliche Testumgebung)
+   - sowie die Testziele und -kriterien.
+Nach diesem Meeting übernimmt in der Regel der QA-Manager oder Teamleiter die Aufgabe, den Testplan formal zu erstellen.
+
+
+FYI: Extra
+Schritte zur Entwicklung des Testplans
+ 1: Analyse des Produkts
+ 2: Den Umfang definieren
+ 3: Die Prüfkriterien auflisten
+ 4: Die Umgebung aufzeichnen
+ 5: Einen Zeitplan erstellen
+ 6: Die Leistungen aufschreiben
+
+49. Warum sollten wir dich einstellen?
+
+- Sie sollten mich einstellen, weil ich nicht nur über die erforderlichen technischen Fähigkeiten und Erfahrungen verfüge, sondern auch ein engagierter Teamplayer bin. Ich bringe eine Leidenschaft für Qualitätssicherung und Testautomatisierung mit und bin bereit, kontinuierlich dazu beizutragen, die Softwarequalität in Ihrem Unternehmen zu verbessern. Außerdem bin ich flexibel, lernbereit und bereit, mich neuen Herausforderungen anzupassen.
+
+50. Was sind deine Erwartungen an unser Unternehmen?
+
+Ich erwarte ein unterstützendes Arbeitsumfeld, in dem ich meine Fähigkeiten und Kenntnisse weiterentwickeln kann.
+Ich schätze auch eine offene Kommunikationskultur und die Möglichkeit, als Teil eines Teams aktiv zur Erfolgsgeschichte des Unternehmens beizutragen.
+
+51. Kannst du unter Druck arbeiten?
+
+ Ja, ich kann unter Druck arbeiten. In meiner bisherigen beruflichen Laufbahn habe ich oft unter engen Zeitvorgaben und hohem Arbeitsaufkommen gearbeitet. Ich behalte einen kühlen Kopf, priorisiere Aufgaben effizient und bleibe fokussiert, um die gestellten Ziele zu erreichen. Ich glaube, dass Druck eine Gelegenheit ist, meine organisatorischen Fähigkeiten und meine Belastbarkeit zu beweisen.
+
+
+
+
+
+
+
+
+
