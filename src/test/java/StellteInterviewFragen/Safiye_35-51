@@ -47,7 +47,8 @@ Clean Code prinzipien -
 43. Kannst du die Testpyramide erklären?
 
 - Die Pyramide der agilen Testautomatisierung ist ein grafischer Leitfaden für die Implementierung automatisierter Softwaretests.
-  Das Modell unterteilt die Testarten in drei Schichten, basierend auf dem Return on Investment (ROI), den die Automatisierung der jeweiligen Testart biete
+  Das Modell unterteilt die Testarten in drei Schichten, basierend auf dem Return on Investment (ROI),
+  den die Automatisierung der jeweiligen Testart biete
 
 ---> An der Basis der Pyramide befinden sich die grundlegenden ->  Unit-Tests (Komponententests)
 ---> Auf dem mittleren Level befinden sich                     ->  Die Integrationstests
@@ -73,13 +74,16 @@ FYI: ROI ist eine Möglichkeit, herauszufinden, ob eine Investition, sei es Geld
 - Ich habe Automatisierung während meiner berufsausbildung gelernt. Ich habe eine Coding School(Programmierschule) besucht.
 Gleichzeitig mit dem Erwerb des Grundwissens, habe ich dieses in realen Projekten angewendet
 und dabei von erfahrenen Kollegen und Mentoren wertvolle Einblicke und Best Practices erhalten.
-Darüber hinaus bin ich immer offen für neue Technologien und Entwicklungen in diesem Bereich, um meine Fähigkeiten kontinuierlich zu verbessern.
+Darüber hinaus bin ich immer offen für neue Technologien und Entwicklungen in diesem Bereich,
+um meine Fähigkeiten kontinuierlich zu verbessern.
 
 
 46. Was hast du in deinem vorherigen Unternehmen verändert?
 
-- In meinem vorherigen Unternehmen habe ich dazu beigetragen, den Testprozess zu optimieren und die Testautomatisierung zu implementieren. Wir haben manuelle Tests reduziert(%70 falls wird gefragt) und wichtige Testfälle automatisiert, was zu Zeit- und Kosteneinsparungen führte.
-Außerdem habe ich dazu beigetragen, die Kommunikation zwischen Entwicklern und Testern zu verbessern, was die Qualität der Software und die Geschwindigkeit der Bereitstellung erhöht hat.
+- In meinem vorherigen Unternehmen habe ich dazu beigetragen, den Testprozess zu optimieren und die Testautomatisierung zu implementieren.
+ Wir haben manuelle Tests reduziert(%70 falls wird gefragt) und wichtige Testfälle automatisiert, was zu Zeit- und Kosteneinsparungen führte.
+Außerdem habe ich dazu beigetragen, die Kommunikation zwischen Entwicklern und Testern zu verbessern,
+was die Qualität der Software und die Geschwindigkeit der Bereitstellung erhöht hat.
 
 47. Was tust du, um deine Fähigkeiten zu verbessern?
 
@@ -109,7 +113,10 @@ Schritte zur Entwicklung des Testplans
 
 49. Warum sollten wir dich einstellen?
 
-- Sie sollten mich einstellen, weil ich nicht nur über die erforderlichen technischen Fähigkeiten und Erfahrungen verfüge, sondern auch ein engagierter Teamplayer bin. Ich bringe eine Leidenschaft für Qualitätssicherung und Testautomatisierung mit und bin bereit, kontinuierlich dazu beizutragen, die Softwarequalität in Ihrem Unternehmen zu verbessern. Außerdem bin ich flexibel, lernbereit und bereit, mich neuen Herausforderungen anzupassen.
+- Sie sollten mich einstellen, weil ich nicht nur über die erforderlichen technischen Fähigkeiten und Erfahrungen verfüge,
+sondern auch ein engagierter Teamplayer bin. Ich bringe eine Leidenschaft für Qualitätssicherung und Testautomatisierung
+mit und bin bereit, kontinuierlich dazu beizutragen, die Softwarequalität in Ihrem Unternehmen zu verbessern.
+Außerdem bin ich flexibel, lernbereit und bereit, mich neuen Herausforderungen anzupassen.
 
 50. Was sind deine Erwartungen an unser Unternehmen?
 
@@ -118,7 +125,10 @@ Ich schätze auch eine offene Kommunikationskultur und die Möglichkeit, als Tei
 
 51. Kannst du unter Druck arbeiten?
 
- Ja, ich kann unter Druck arbeiten. In meiner bisherigen beruflichen Laufbahn habe ich oft unter engen Zeitvorgaben und hohem Arbeitsaufkommen gearbeitet. Ich behalte einen kühlen Kopf, priorisiere Aufgaben effizient und bleibe fokussiert, um die gestellten Ziele zu erreichen. Ich glaube, dass Druck eine Gelegenheit ist, meine organisatorischen Fähigkeiten und meine Belastbarkeit zu beweisen.
+ Ja, ich kann unter Druck arbeiten. In meiner bisherigen beruflichen Laufbahn habe ich oft unter engen Zeitvorgaben und
+ hohem Arbeitsaufkommen gearbeitet. Ich behalte einen kühlen Kopf, priorisiere Aufgaben effizient und bleibe fokussiert,
+ um die gestellten Ziele zu erreichen. Ich glaube, dass Druck eine Gelegenheit ist, meine organisatorischen Fähigkeiten
+ und meine Belastbarkeit zu beweisen.
 
 
 
