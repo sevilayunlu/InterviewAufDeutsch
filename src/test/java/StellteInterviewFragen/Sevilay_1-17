@@ -51,17 +51,14 @@ In der 'before'-Methode habe ich den Treiber initialisiert, und in der 'after'-M
 5.Was ist Gherkin?
 
 Gherkin ist eine domänenspezifische Sprache (DSL), die in der Softwareentwicklung verwendet wird, insbesondere
-im Kontext
-von Behavior-Driven Development (BDD) und Testautomatisierung. Gherkin dient dazu, menschenlesbare und strukturierte
-Testspezifikationen
-zu erstellen, die von Entwicklern, Testern und anderen Teammitgliedern leicht verstanden werden können.
-Die Gherkin-Syntax basiert auf einfachen Schlüsselwörtern und beschreibt Szenarien, Funktionen und Schritte
- für Softwaretests.
+im Kontext von Behavior-Driven Development (BDD) und Testautomatisierung. Gherkin dient dazu, menschenlesbare und
+strukturierte Testspezifikationen zu erstellen, die von Entwicklern, Testern und anderen Teammitgliedern leicht
+verstanden werden können.
+Die Gherkin-Syntax basiert auf einfachen Schlüsselwörtern und beschreibt Szenarien, Funktionen und Schritte für
+Softwaretests.
 Die Syntax umfasst Schlüsselwörter wie "Given" (Gegeben), "When" (Wenn), "Then" (Dann) und andere, um den Zustand,
-die Aktionen und
-die erwarteten Ergebnisse in einem Szenario klar zu definieren. Diese Gherkin-Spezifikationen werden in der Regel
- in sogenannten
-Feature-Dateien geschrieben.
+die Aktionen und die erwarteten Ergebnisse in einem Szenario klar zu definieren. Diese Gherkin-Spezifikationen werden
+in der Regel in sogenannten Feature-Dateien geschrieben.
 
 6.Können Sie  SQL-JOIN verwenden und welche Arten gibt es?
 
@@ -73,19 +70,17 @@ b)	LEFT JOIN (auch LEFT OUTER JOIN genannt): Dies gibt alle Zeilen aus der linke
 aus der rechten Tabelle zurück. Wenn keine Übereinstimmung in der rechten Tabelle gefunden wird, werden NULL-Werte
 zurückgegeben.
 c)	RIGHT JOIN (auch RIGHT OUTER JOIN genannt): Dies ist das Gegenteil von LEFT JOIN. Es gibt alle Zeilen aus der
-rechten Tabelle
-und die übereinstimmenden Zeilen aus der linken Tabelle zurück.
+rechten Tabelle und die übereinstimmenden Zeilen aus der linken Tabelle zurück.
 d)	FULL OUTER JOIN: Diese Operation gibt alle Zeilen aus beiden Tabellen zurück und füllt fehlende Werte mit NULL auf.
 e)	SELF JOIN: Dies wird verwendet, wenn Sie eine Tabelle mit sich selbst verknüpfen, um Beziehungen zwischen Zeilen
 in derselben Tabelle zu erstellen.
 
 Diese JOIN-Arten ermöglichen es, Daten aus mehreren Tabellen miteinander zu verknüpfen und komplexe Abfragen
-durchzuführen,
-um benötigte Informationen abzurufen.
+durchzuführen, um benötigte Informationen abzurufen.
 
 
-7.Was ist ein Query?(eigentlich wurde 2 tabellen gegeben und vielleicht fragten die nach dem Join. Ich wollte hierhin
-the Beschreibung einschreiben)
+7.Was ist ein Query?(eigentlich wurde 2 Tabellen gegeben und vielleicht fragten sie nach dem Join. Ich wollte hierhin
+die Beschreibung einschreiben)
 
 Ein "Query" (Abfrage) ist eine Anfrage oder Fragestellung, die in der Datenbankverwaltung und im Bereich der
 Datenbankabfragen verwendet wird. Eine Abfrage wird verwendet, um Daten aus einer Datenbank abzurufen, zu bearbeiten,
@@ -105,8 +100,7 @@ das Abrufen von Informationen aus Datenbanken in vielen Anwendungen und Systemen
 8.Was ist ein API Dokument?
 
 Ein API-Dokument ist ein schriftliches oder elektronisches Dokument, das Informationen und Anleitungen zur Verwendung
-einer
-Application Programming Interface (API) enthält. Eine API ist eine Schnittstelle, die es Entwicklern ermöglicht,
+einer Application Programming Interface (API) enthält. Eine API ist eine Schnittstelle, die es Entwicklern ermöglicht,
 auf bestimmte Funktionen
 oder Dienste einer Softwareanwendung, eines Betriebssystems oder eines anderen Computersystems zuzugreifen und mit
 diesen zu interagieren.
@@ -147,8 +141,7 @@ zu lösen.
 In meinem Team folgen wir dem agilen Scrum-Framework, das eine Reihe von Meetings, Tools und Rollen umfasst, um unsere
 Arbeit effektiv
 zu managen. Unser Team besteht aus 8 Mitgliedern, darunter ein Product Owner (PO), ein Scrum Master (SM), 4 Entwicklern
- und
-2 Qualitätssicherungsexperten (QA). Wir arbeiten mit einem 2-wöchigen Sprint-Zyklus.
+und 2 Qualitätssicherungsexperten (QA). Wir arbeiten mit einem 2-wöchigen Sprint-Zyklus.
 
 •	Unser Sprint beginnt mit einem Grooming-Meeting, an dem alle Scrum-Mitglieder teilnehmen.
 •	Als nächstes haben wir das Sprint-Planning-Meeting, um das Sprint-Ziel festzulegen und die spezifischen Aufgaben
@@ -163,18 +156,15 @@ auf die Identifizierung von Verbesserungsmöglichkeiten.
 12.	Dokumente sind unvollständig und Sie haben nur Benutzerstories zur Hand. Was machen Sie dann?
 
 •	Klarheit schaffen: Zuerst würde ich versuchen, so viele Informationen wie möglich aus den vorhandenen
-Benutzerstories zu extrahieren.
-Ich würde sicherstellen, dass ich die Anforderungen und Erwartungen so gut wie möglich verstehe.
+Benutzerstories zu extrahieren. Ich würde sicherstellen, dass ich die Anforderungen und Erwartungen so gut wie möglich
+verstehe.
 •	Kommunikation mit dem Team: Ich würde das Problem mit meinem Team besprechen.
 •	Rücksprache mit den Stakeholdern: Wenn nötig, würde ich Kontakt zu den Stakeholdern aufnehmen, um weitere
-Informationen oder
-Klarstellungen zu erhalten..
+Informationen oder Klarstellungen zu erhalten..
 •	Dokumentation erstellen: Falls erforderlich, würde ich versuchen, die fehlenden Dokumente selbst zu erstellen,
-basierend auf den
-verfügbaren Benutzerstories und den erhaltenen Informationen.
+basierend auf den verfügbaren Benutzerstories und den erhaltenen Informationen.
 •	Iteration und Feedback: Wir würden iterative Schritte unternehmen und sicherstellen, dass die entwickelte Lösung
-den Anforderungen
-und Erwartungen entspricht.
+den Anforderungen und Erwartungen entspricht.
 
 13.Was ist das Wichtigste bei der Teamarbeit?
 
@@ -183,10 +173,8 @@ eine effektive
 Zusammenarbeit aus, bei der Teammitglieder ihre Fähigkeiten und Ressourcen kombinieren, um gemeinsame Ziele zu
 erreichen. Die Kommunikation
 innerhalb des Teams ist entscheidend, um Ideen auszutauschen, Hindernisse zu überwinden und sicherzustellen, dass alle
-auf dem gleichen Stand
-sind. Außerdem ist Vertrauen in die Fähigkeiten und Beiträge der Teammitglieder von großer Bedeutung, um eine positive
-Arbeitsatmosphäre
-zu schaffen und erfolgreich zusammenzuarbeiten.
+auf dem gleichen Stand sind. Außerdem ist Vertrauen in die Fähigkeiten und Beiträge der Teammitglieder von großer
+ Bedeutung, um eine positive Arbeitsatmosphäre zu schaffen und erfolgreich zusammenzuarbeiten.
 
 14.Im Framework, wo und wie werden Testskripte geschrieben?
 
