@@ -1,27 +1,39 @@
 103-Wie verwenden Sie BDD als SDET?
-BDD (Verhaltensgetriebene Entwicklung) ist ein Ansatz, der in der Softwareentwicklung verwendet wird, um das erwartete Verhalten und die Funktionalität einer Software zu definieren und zu verstehen. Als SDET (Softwareentwicklungsingenieur und Tester) können Sie die folgenden Schritte befolgen, um BDD zu verwenden:
+BDD (Verhaltensgetriebene Entwicklung) ist ein Ansatz, der in der Softwareentwicklung verwendet wird,
+um das erwartete Verhalten und die Funktionalität einer Software zu definieren und zu verstehen.
+ Als SDET (Softwareentwicklungsingenieur und Tester) können Sie die folgenden Schritte befolgen, um BDD zu verwenden:
 1.	Anforderungen verstehen:
-o	Um zu verstehen, wie die Software funktionieren soll und welche Verhaltensweisen erwartet werden, sollten Sie die Anforderungen des Projekts sorgfältig prüfen.
+o	Um zu verstehen, wie die Software funktionieren soll und welche Verhaltensweisen erwartet werden,
+ sollten Sie die Anforderungen des Projekts sorgfältig prüfen.
 o	Kommunizieren Sie mit Stakeholdern und klären Sie die Anforderungen.
 2.	Szenarien definieren:
-o	Erstellen Sie Szenarien, um das erwartete Verhalten zu beschreiben. Diese Szenarien erklären, wie Benutzer oder Systemkomponenten sich verhalten sollten.
+o	Erstellen Sie Szenarien, um das erwartete Verhalten zu beschreiben.
+ Diese Szenarien erklären, wie Benutzer oder Systemkomponenten sich verhalten sollten.
 o	Die Szenarien sollten die Funktionalität und das Verhalten verständlich beschreiben.
 3.	Auswahl von BDD-Tools:
-o	Wählen Sie geeignete Tools aus, um BDD-Szenarien zu schreiben und zu automatisieren. Beliebte BDD-Tools sind Cucumber, SpecFlow, Behave und Jasmine, um nur einige zu nennen.
+o	Wählen Sie geeignete Tools aus, um BDD-Szenarien zu schreiben und zu automatisieren.
+Beliebte BDD-Tools sind Cucumber, SpecFlow, Behave und Jasmine, um nur einige zu nennen.
 4.	Szenarien schreiben:
-o	Schreiben Sie die Szenarien in der BDD-Sprache. Diese Sprache ähnelt oft natürlicher Sprache und verwendet Schlüsselwörter wie "Angenommen", "Wenn", "Dann".
+o	Schreiben Sie die Szenarien in der BDD-Sprache.
+Diese Sprache ähnelt oft natürlicher Sprache und verwendet Schlüsselwörter wie "Angenommen", "Wenn", "Dann".
 o	Die Szenarien sollten die zu testende Funktionalität und das Verhalten detailliert beschreiben.
 5.	Szenarien automatisieren:
-o	Automatisieren Sie die Szenarien, indem Sie die BDD-Tools verwenden, die Sie ausgewählt haben, um Testszenarien mit Code abzustimmen. Dies ermöglicht es Ihnen, die Szenarien in Testfälle umzuwandeln.
-o	Codieren Sie die erforderlichen Schritte für jedes Szenario und verwenden Sie Assertion-Aussagen, um das erwartete Verhalten zu überprüfen.
+o	Automatisieren Sie die Szenarien, indem Sie die BDD-Tools verwenden, die Sie ausgewählt haben, um Testszenarien mit Code abzustimmen.
+ Dies ermöglicht es Ihnen, die Szenarien in Testfälle umzuwandeln.
+o	Codieren Sie die erforderlichen Schritte für jedes Szenario und verwenden Sie Assertion-Aussagen,
+ um das erwartete Verhalten zu überprüfen.
 6.	Tests ausführen:
-o	Führen Sie die automatisierten BDD-Szenarien mithilfe des Testrahmens aus. Erfolgreich durchgeführte Szenarien zeigen an, dass das erwartete Verhalten korrekt umgesetzt wurde.
+o	Führen Sie die automatisierten BDD-Szenarien mithilfe des Testrahmens aus.
+Erfolgreich durchgeführte Szenarien zeigen an, dass das erwartete Verhalten korrekt umgesetzt wurde.
 7.	Ergebnisse überprüfen:
 o	Überprüfen Sie die Testergebnisse und identifizieren Sie etwaige Fehler oder fehlgeschlagene Szenarien.
 o	Protokollieren Sie Fehler und teilen Sie sie dem Entwicklungsteam mit, damit sie behoben werden können.
 8.	Szenarien aktualisieren:
-o	Aktualisieren Sie die Szenarien, wenn sich Anforderungen oder Funktionalitäten ändern, um sicherzustellen, dass die Tests kontinuierlich aktuell und gültig sind.
-BDD fördert die Zusammenarbeit, die Verständlichkeit und die Testautomatisierung im Softwareentwicklungsprozess. Dank dieses Ansatzes können Sie das erwartete Verhalten der Software besser definieren, Testprozesse effizienter gestalten und eine bessere Kommunikation zwischen den Stakeholdern ermöglichen.
+o	Aktualisieren Sie die Szenarien, wenn sich Anforderungen oder Funktionalitäten ändern, um sicherzustellen,
+dass die Tests kontinuierlich aktuell und gültig sind.
+BDD fördert die Zusammenarbeit, die Verständlichkeit und die Testautomatisierung im Softwareentwicklungsprozess.
+ Dank dieses Ansatzes können Sie das erwartete Verhalten der Software besser definieren,
+ Testprozesse effizienter gestalten und eine bessere Kommunikation zwischen den Stakeholdern ermöglichen.
 104-Wie benutzt du Jenkins?
 ● Ich persönlich richte 2-3 Jobs für automatisierte Tests ein.
 ○ 1 für Smoke → Der Smoke-Test wird täglich 2-3 Mal durchgeführt, um sicherzustellen, dass alle Umgebungen aktiv und betriebsbereit sind.
@@ -33,7 +45,8 @@ BDD fördert die Zusammenarbeit, die Verständlichkeit und die Testautomatisieru
  ■ Wird am Ende eines Sprints durchgeführt.
  ■ Tests, die sich auf bestimmte Module und Funktionen beziehen.
  ■ Ich verwende Tags, um anzugeben, welche Module ausgeführt werden sollen.
-105. Wie testen Sie die Amazon-Website in einem Feature-File? Können Sie mir das in Form eines Szenarios mit den Schritten "Given, When und Then" erklären?
+105. Wie testen Sie die Amazon-Website in einem Feature-File? Können Sie mir das in Form eines Szenarios mit den Schritten
+ "Given, When und Then" erklären?
 Eigenschaft: Testen der Amazon-Website
 
   Szenario: Suche nach Produkten auf Amazon
@@ -64,12 +77,22 @@ Eigenschaft: Testen der Amazon-Website
     Und (And) der Benutzer führt die Zahlung durch
 
 106- "Können Sie Ihre täglichen Aktivitäten beschreiben?
-• Meine täglichen Aktivitäten bei der Arbeit: In der Regel fange ich früh am Morgen an und überprüfe den Ergebnisbericht des Smoke-Tests, um sicherzustellen, dass die Umgebung einsatzbereit ist und die Anwendung stabil ist oder nicht für den Tag.
+• Meine täglichen Aktivitäten bei der Arbeit: In der Regel fange ich früh am Morgen an und überprüfe den Ergebnisbericht des Smoke-Tests,
+um sicherzustellen, dass die Umgebung einsatzbereit ist und die Anwendung stabil ist oder nicht für den Tag.
 
-• Wenn etwas schief geht, sende ich eine E-Mail an mein Team, damit sie sich so schnell wie möglich darum kümmern können, bevor alle zur Arbeit kommen, um die maximale Produktivität zu erreichen. • Dann überprüfe ich meine E-Mails, ob es wichtige Aufgaben oder Mitteilungen gibt, überprüfe auch meinen Zeitplan, ob es für den Tag irgendwelche Besprechungen gibt, und überprüfe Jira, um zu sehen, was an diesem Tag erledigt werden muss und welche Priorität hat.
+• Wenn etwas schief geht, sende ich eine E-Mail an mein Team, damit sie sich so schnell wie möglich darum kümmern können,
+bevor alle zur Arbeit kommen, um die maximale Produktivität zu erreichen.
+• Dann überprüfe ich meine E-Mails, ob es wichtige Aufgaben oder Mitteilungen gibt, überprüfe auch meinen Zeitplan,
+ob es für den Tag irgendwelche Besprechungen gibt, und überprüfe Jira, um zu sehen,
+was an diesem Tag erledigt werden muss und welche Priorität hat.
 
-• Dann nehme ich zur täglichen Standup-Besprechung mit meinem Scrum-Team teil, um darüber zu sprechen, was ich gestern gemacht habe, was wir heute machen werden, und ob es Hindernisse auf meinem Weg gibt. Diese Besprechung dauert etwa 15 Minuten.
- • Danach gehe ich zurück an meinen Schreibtisch und automatisiere Testfälle aus Regressionssuiten. Außerdem automatisiere ich Testfälle aus dem Sprint-Backlog, nachdem ich sie manuell getestet habe, wenn sie bestanden haben. Wir nähern uns dem Ende unseres Sprints und beenden unsere Automatisierung, Testdurchführung, Berichterstellung und bereiten uns auf die Sprint-Demo vor.
+• Dann nehme ich zur täglichen Standup-Besprechung mit meinem Scrum-Team teil,
+um darüber zu sprechen, was ich gestern gemacht habe, was wir heute machen werden, und ob es Hindernisse auf meinem Weg gibt.
+ Diese Besprechung dauert etwa 15 Minuten.
+ • Danach gehe ich zurück an meinen Schreibtisch und automatisiere Testfälle aus Regressionssuiten.
+ Außerdem automatisiere ich Testfälle aus dem Sprint-Backlog, nachdem ich sie manuell getestet habe, wenn sie bestanden haben.
+ Wir nähern uns dem Ende unseres Sprints und beenden unsere Automatisierung, Testdurchführung,
+  Berichterstellung und bereiten uns auf die Sprint-Demo vor.
 
 • Einmal pro Woche haben wir auch Code-Review-Meetings, um den Code zu überprüfen. Das ist wirklich hilfreich.
 
@@ -77,110 +100,205 @@ Kurz gesagt, das ist meine tägliche Aktivität
 
 107-Wenn Sie ein Fehler-Ticket (Bug) in Jira und Xray erstellen möchten, können Sie die folgenden Schritte befolgen:
 1.	Anmelden: Melden Sie sich bei Jira und Xray an. Stellen Sie sicher, dass Sie über die erforderlichen Zugriffsrechte verfügen.
-2.	Projekt auswählen: Wählen Sie das Projekt aus, in dem Sie den Fehler melden möchten. Das Projekt kann je nach Ihrer Organisationsstruktur variieren.
-3.	Fehler-Ticket erstellen: Erstellen Sie in dem ausgewählten Projekt ein neues Fehler-Ticket. Dies wird in der Regel über eine Schaltfläche oder einen Link wie "Issue" oder "Issue erstellen" durchgeführt.
+2.	Projekt auswählen: Wählen Sie das Projekt aus, in dem Sie den Fehler melden möchten.
+Das Projekt kann je nach Ihrer Organisationsstruktur variieren.
+3.	Fehler-Ticket erstellen: Erstellen Sie in dem ausgewählten Projekt ein neues Fehler-Ticket.
+Dies wird in der Regel über eine Schaltfläche oder einen Link wie "Issue" oder "Issue erstellen" durchgeführt.
 4.	Fehlerdetails eingeben: Beim Erstellen des Fehler-Tickets ist es wichtig, folgende Informationen hinzuzufügen:
 o	Titel: Eine prägnante Beschreibung des Fehlers.
 o	Beschreibung: Eine ausführliche Beschreibung des Fehlers, wie er reproduziert werden kann und mögliche Ursachen.
 o	Priorität: Die Dringlichkeit des Fehlers (z.B. hoch, mittel, niedrig).
 o	Zugewiesen an: Die Person oder das Team, das an der Fehlerbehebung arbeiten wird.
 o	Tags: Relevante Schlüsselwörter oder Tags hinzufügen.
-5.	Fehlertyp angeben: Wenn Sie die Jira-Xray-Integration verwenden, können Sie den Fehlertyp als Xray-Testtyp auswählen. Dies gibt an, dass der Fehler als Testergebnis erstellt wurde.
-6.	Verknüpfung: Sie können das Fehler-Ticket mit Testfällen oder Test-Szenarien verknüpfen, die mit dem Fehler in Verbindung stehen. Dies ist wichtig, um festzustellen, in welchem Test-Szenario der Fehler aufgetreten ist.
+5.	Fehlertyp angeben: Wenn Sie die Jira-Xray-Integration verwenden, können Sie den Fehlertyp als Xray-Testtyp auswählen.
+ Dies gibt an, dass der Fehler als Testergebnis erstellt wurde.
+6.	Verknüpfung: Sie können das Fehler-Ticket mit Testfällen oder Test-Szenarien verknüpfen, die mit dem Fehler in Verbindung stehen.
+ Dies ist wichtig, um festzustellen, in welchem Test-Szenario der Fehler aufgetreten ist.
 7.	Anhänge und Dateien: Sie können Screenshots, Log-Dateien oder andere Dokumente anhängen, die mit dem Fehler zusammenhängen.
 8.	Ticket speichern: Nachdem Sie alle erforderlichen Informationen hinzugefügt haben, erstellen Sie das Fehler-Ticket und speichern es.
-9.	Fehler untersuchen und beheben: Jetzt können Sie damit beginnen, die Ursache des Fehlers zu untersuchen und wie er behoben werden kann. Das Entwicklungsteam wird daran arbeiten, den Fehler zu beheben.
-10.	Testen und bestätigen: Nachdem der Fehler behoben wurde, können Sie die relevanten Test-Szenarien oder Testfälle mit Xray aktualisieren, um zu zeigen, dass der Fehler behoben wurde.
+9.	Fehler untersuchen und beheben: Jetzt können Sie damit beginnen, die Ursache des Fehlers zu untersuchen und wie er behoben werden kann.
+Das Entwicklungsteam wird daran arbeiten, den Fehler zu beheben.
+10.	Testen und bestätigen: Nachdem der Fehler behoben wurde, können Sie die relevanten Test-Szenarien oder Testfälle mit Xray aktualisieren,
+ um zu zeigen, dass der Fehler behoben wurde.
 108. Was testen Sie derzeit in Ihrem Projekt?
-"Benutzerfreundlichkeits- und Schnittstellentests(arayüz): Ich bewerte, ob die Benutzeroberfläche benutzerfreundlich und funktional ist. Dies ist wichtig, um sicherzustellen, dass Benutzer die Anwendung problemlos verwenden können.
-Funktionale Tests: Ich teste die grundlegenden Funktionen der Anwendung (z. B. Buchsuche, Ausleihe, Rückgabe). Ich überprüfe, ob jede Funktion die erwarteten Ergebnisse korrekt liefert.
+"Benutzerfreundlichkeits- und Schnittstellentests(arayüz): Ich bewerte, ob die Benutzeroberfläche benutzerfreundlich und funktional ist.
+ Dies ist wichtig, um sicherzustellen, dass Benutzer die Anwendung problemlos verwenden können.
+Funktionale Tests: Ich teste die grundlegenden Funktionen der Anwendung (z. B. Buchsuche, Ausleihe, Rückgabe).
+ Ich überprüfe, ob jede Funktion die erwarteten Ergebnisse korrekt liefert.
 Datenbanktests: Ich bestätige, ob die Bibliotheksdatenbank ordnungsgemäß funktioniert und ob Daten korrekt gespeichert und aktualisiert werden.
-API-Tests: Ich teste die APIs, die hinter der Anwendung stehen, um sicherzustellen, dass die Datenkommunikation und Integrationen ordnungsgemäß funktionieren.
-Cross-Browser-Kompatibilitätstests: Ich überprüfe, ob die Anwendung in verschiedenen Webbrowsern und auf verschiedenen Geräten ordnungsgemäß funktioniert.
-Umfassende Testberichte: Ich dokumentiere jeden Test ausführlich und melde mögliche Fehler im Detail. Das Entwicklungsteam kann diese Fehler zur Behebung verwenden.
+API-Tests: Ich teste die APIs, die hinter der Anwendung stehen, um sicherzustellen,
+dass die Datenkommunikation und Integrationen ordnungsgemäß funktionieren.
+Cross-Browser-Kompatibilitätstests: Ich überprüfe, ob die Anwendung in verschiedenen Webbrowsern und
+auf verschiedenen Geräten ordnungsgemäß funktioniert.
+Umfassende Testberichte: Ich dokumentiere jeden Test ausführlich und melde mögliche Fehler im Detail.
+ Das Entwicklungsteam kann diese Fehler zur Behebung verwenden.
 
-109. Sie sind Englischlehrer. Haben Sie einige dieser Tools schon einmal gelernt oder haben Sie sie alle in diesem Kurs gelernt? Es ist unmöglich, in dieser Zeit so viel Technologie zu lernen.
-Ich habe einige dieser Tools in meinem Studium und meiner beruflichen Laufbahn kennengelernt, aber ich hatte nicht oft die Chance, sie gründlich zu nutzen. Mit diesem Kurs konnte ich alle Tools besser kennenlernen und auch praktisch anwenden.
+109. Sie sind Englischlehrer. Haben Sie einige dieser Tools schon einmal gelernt oder haben Sie sie alle in diesem Kurs gelernt?
+ Es ist unmöglich, in dieser Zeit so viel Technologie zu lernen.
+Ich habe einige dieser Tools in meinem Studium und meiner beruflichen Laufbahn kennengelernt,
+aber ich hatte nicht oft die Chance, sie gründlich zu nutzen. Mit diesem Kurs konnte ich alle Tools besser kennenlernen und
+auch praktisch anwenden.
 110- Wie erstellen Sie als SDET Testdesign?
-1.	Anforderungsanalyse: Ich beginne damit, die Anforderungen und Spezifikationen des zu testenden Projekts gründlich zu verstehen. Dies ermöglicht es mir, den Umfang der Tests und die erwarteten Ergebnisse klar zu definieren.
-2.	Testziele festlegen: Ich setze klare Ziele für die Tests. Diese Ziele umfassen, was getestet werden soll, welche Kriterien erfüllt sein müssen und welche Ergebnisse erwartet werden.
-3.	Testfälle entwickeln: Auf Grundlage der Anforderungen erstelle ich detaillierte Testfälle. Diese Testfälle beschreiben, wie die einzelnen Funktionen oder Module getestet werden sollen. Sie enthalten auch die Schritte, die zur Ausführung des Tests erforderlich sind.
-4.	Testdaten erstellen: Ich generiere oder sammle die benötigten Testdaten, um sicherzustellen, dass die Tests realistische Szenarien simulieren.
-5.	Testumgebung einrichten: Ich stelle sicher, dass die Testumgebung korrekt eingerichtet ist, um die geplanten Tests durchzuführen. Dies kann die Konfiguration von Testservern, Datenbanken und anderen Komponenten umfassen.
-6.	Testdurchführung: Ich führe die vorbereiteten Testfälle aus und beobachte das Verhalten der Anwendung. Ich protokolliere alle Ergebnisse, sowohl positive als auch negative.
-7.	Fehlerberichterstattung: Wenn Fehler oder Unstimmigkeiten auftreten, erstelle ich detaillierte Fehlerberichte. Diese Berichte enthalten Informationen wie den Fehlerort, die Reproduktionsschritte und die erwarteten Ergebnisse im Vergleich zu den tatsächlichen Ergebnissen.
-8.	Testbericht: Ich erstelle einen Testbericht, der die Testergebnisse zusammenfasst und die Testziele bewertet. Dieser Bericht dient als Grundlage für Entscheidungen über die Freigabe oder den weiteren Entwicklungsprozess.
-9.	Regressionstests: Wenn Änderungen am Code vorgenommen werden, führe ich Regressionstests durch, um sicherzustellen, dass vorhandene Funktionen nicht beeinträchtigt wurden.
+1.	Anforderungsanalyse: Ich beginne damit, die Anforderungen und Spezifikationen des zu testenden Projekts gründlich zu verstehen.
+ Dies ermöglicht es mir, den Umfang der Tests und die erwarteten Ergebnisse klar zu definieren.
+2.	Testziele festlegen: Ich setze klare Ziele für die Tests. Diese Ziele umfassen, was getestet werden soll,
+ welche Kriterien erfüllt sein müssen und welche Ergebnisse erwartet werden.
+3.	Testfälle entwickeln: Auf Grundlage der Anforderungen erstelle ich detaillierte Testfälle. Diese Testfälle beschreiben,
+ wie die einzelnen Funktionen oder Module getestet werden sollen. Sie enthalten auch die Schritte, die zur Ausführung des Tests erforderlich sind.
+
+4.	Testdaten erstellen: Ich generiere oder sammle die benötigten Testdaten, um sicherzustellen,
+ dass die Tests realistische Szenarien simulieren.
+5.	Testumgebung einrichten: Ich stelle sicher, dass die Testumgebung korrekt eingerichtet ist,
+um die geplanten Tests durchzuführen. Dies kann die Konfiguration von Testservern, Datenbanken und anderen Komponenten umfassen.
+6.	Testdurchführung: Ich führe die vorbereiteten Testfälle aus und beobachte das Verhalten der Anwendung.
+Ich protokolliere alle Ergebnisse, sowohl positive als auch negative.
+7.	Fehlerberichterstattung: Wenn Fehler oder Unstimmigkeiten auftreten, erstelle ich detaillierte Fehlerberichte.
+ Diese Berichte enthalten Informationen wie den Fehlerort, die Reproduktionsschritte und
+  die erwarteten Ergebnisse im Vergleich zu den tatsächlichen Ergebnissen.
+8.	Testbericht: Ich erstelle einen Testbericht, der die Testergebnisse zusammenfasst unddie Testziele bewertet.
+ Dieser Bericht dient als Grundlage für Entscheidungen über die Freigabe oder den weiteren Entwicklungsprozess.
+9.	Regressionstests: Wenn Änderungen am Code vorgenommen werden, führe ich Regressionstests durch,
+um sicherzustellen, dass vorhandene Funktionen nicht beeinträchtigt wurden.
 10.	Automatisierung: Wenn möglich, automatisiere ich Tests, um wiederholbare Aufgaben zu vereinfachen und die Effizienz zu steigern.
-11.	Kontinuierliche Verbesserung: Ich analysiere ständig meine Teststrategie und passe sie an, um die Qualität der Software und die Effizienz der Tests zu verbessern.
+11.	Kontinuierliche Verbesserung: Ich analysiere ständig meine Teststrategie und passe sie an,
+um die Qualität der Software und die Effizienz der Tests zu verbessern.
 
 111-Wie wenden Sie Agile Scrum an?
 
-Wir haben zweiwöchige Sprints, und am ersten Tag geht es um die Erklärung der User Stories und die Erstellung des Sprint Backlogs. Danach arbeitet jeder an seinen eigenen User Stories, und wir haben täglich 15-minütige Daily Meetings, in denen wir besprechen, was wir gestern gemacht haben, was wir heute tun werden, und ob es Hindernisse gibt, die mich blockieren. Am Ende des Sprints führen wir ein Release durch, und am letzten Tag präsentieren wir das Projekt. Danach halten wir ein Retro-Meeting ab, um unsere Meinungen darüber auszutauschen, wie wir den nächsten Sprint effizienter gestalten können.
+Wir haben zweiwöchige Sprints, und am ersten Tag geht es um die Erklärung der User Stories und die Erstellung des Sprint Backlogs.
+Danach arbeitet jeder an seinen eigenen User Stories, und wir haben täglich 15-minütige Daily Meetings, in denen wir besprechen,
+was wir gestern gemacht haben, was wir heute tun werden, und ob es Hindernisse gibt, die mich blockieren.
+Am Ende des Sprints führen wir ein Release durch, und am letzten Tag präsentieren wir das Projekt.
+Danach halten wir ein Retro-Meeting ab, um unsere Meinungen darüber auszutauschen, wie wir den nächsten Sprint effizienter gestalten können.
 
 112- Was ist Linux? Wofür wird es verwendet?
-Linux is a free and open-source operating system.
-Free and Open Source: Linux can be used for free, and its source code is open to everyone. This means that anyone can customize and improve the operating system.
-Stable and Reliable: Linux is known for its high level of stability and reliability. That's why it is often preferred as a server operating system.
-Multitasking Support: Linux has the ability to perform multitasking, allowing multiple applications to run simultaneously.
-Networking Capabilities: Linux provides a strong infrastructure for networking functions, making it commonly used for web servers, data transmission, and network management.
-Development and Automation: Developers, including SDET professionals, can use Linux for software development, automation tasks, and running tests. Linux supports various programming languages and development tools.
-Security: Linux has a strong reputation for security. Its open-source nature contributes to the rapid detection and fixing of security vulnerabilities.
-Various Distributions: Linux comes in different distributions, each of which may be customized for specific purposes. Examples include Ubuntu, Fedora, CentOS, and Debian.
-As an SDET, it's important to learn how Linux can be used as an operating system and automation tool to support software testing and development processes. Linux's powerful command-line capabilities can assist in automation and the creation of test scenarios.
+Linux ist ein kostenloses und quelloffenes Betriebssystem.
+ Kostenlos und quelloffen: Linux kann kostenlos genutzt werden, und sein Quellcode steht allen offen. Das bedeutet,
+ dass jeder das Betriebssystem anpassen und verbessern kann. Stabil und zuverlässig: Linux ist für seine hohe Stabilität und
+ Zuverlässigkeit bekannt. Deshalb wird es oft als Serverbetriebssystem bevorzugt. Unterstützung für Multitasking:
+Linux hat die Fähigkeit zum Multitasking, was bedeutet, dass mehrere Anwendungen gleichzeitig ausgeführt werden können.
+ Netzwerkfähigkeiten: Linux bietet eine starke Infrastruktur für Netzwerkfunktionen und wird daher häufig für Webserver,
+  Datenübertragung und Netzwerkverwaltung verwendet. Entwicklung und Automatisierung:
+Entwickler, einschließlich SDET-Profis, können Linux für die Softwareentwicklung, Automatisierungsaufgaben und
+das Ausführen von Tests verwenden. Linux unterstützt verschiedene Programmiersprachen und Entwicklungstools. Sicherheit:
+ Linux hat einen ausgezeichneten Ruf in Bezug auf Sicherheit.
+ Seine quelloffene Natur trägt zur schnellen Erkennung und Behebung von Sicherheitslücken bei.
+  Verschiedene Distributionen: Linux ist in verschiedenen Distributionen erhältlich, von denen jede für bestimmte Zwecke angepasst werden kann.
+   Beispiele sind Ubuntu, Fedora, CentOS und Debian.
+ Als SDET ist es wichtig zu lernen, wie Linux als Betriebssystem und
+ Automatisierungstool zur Unterstützung von Softwaretests und Entwicklungsprozessen verwendet werden kann.
+ Die leistungsstarken Kommandozeilenfunktionen von Linux können bei der Automatisierung und der Erstellung von Testszenarien helfen.
 
 
 113- Was sind Internetprotokolle? Kannst du mir ein oder zwei davon erklären?
-Internetprotokolle sind Regeln und Standards, die die Datenkommunikation zwischen Computern und anderen Geräten regeln. Sie werden verwendet, um den Informationsaustausch und die Datenübertragung im Internet zu ermöglichen. Hier sind einige Beispiele:
-•	TCP/IP (Transmission Control Protocol/Internet Protocol): Dies ist das grundlegende Kommunikationsprotokoll des Internets. TCP stellt sicher, dass Daten sicher und zuverlässig übertragen werden. Es legt fest, wie Daten in Pakete aufgeteilt und wieder zusammengeführt werden. IP bestimmt, wie Daten zwischen Computern geroutet werden.
-•	HTTP (Hypertext Transfer Protocol): HTTP ist ein Protokoll, das regelt, wie Webseiten und andere Ressourcen vom Server zum Browser oder Client übertragen und angezeigt werden. Browser verwenden HTTP, um Webseiten von Webservern abzurufen und sie dem Benutzer anzuzeigen.
-•	FTP (File Transfer Protocol): FTP ist ein Protokoll, das die sichere Übertragung von Dateien zwischen Computern ermöglicht. Es wird insbesondere für Dateifreigabe und die Verwaltung von Websites verwendet.
-•	SMTP (Simple Mail Transfer Protocol): SMTP ist ein Protokoll, das die Kommunikation von E-Mails regelt. Es wird für das Senden und Empfangen von E-Mails verwendet.
-•	POP3 (Post Office Protocol Version 3): POP3 ist ein Protokoll, das verwendet wird, um E-Mails vom E-Mail-Server abzurufen und auf den lokalen Computer oder Client herunterzuladen.
-•	IMAP (Internet Message Access Protocol): IMAP ist ein Protokoll, das verwendet wird, um auf auf dem E-Mail-Server gespeicherte E-Mails zuzugreifen. Es ermöglicht das Speichern von E-Mails auf dem Server und den Zugriff von verschiedenen Geräten aus.
-Dies sind nur einige Beispiele, und es gibt viele weitere Internetprotokolle. Diese Protokolle stellen sicher, dass das Internet reibungslos und sicher funktioniert und verschiedene Arten von Datenkommunikation unterstützt.
+Internetprotokolle sind Regeln und Standards, die die Datenkommunikation zwischen Computern und anderen Geräten regeln.
+ Sie werden verwendet, um den Informationsaustausch und die Datenübertragung im Internet zu ermöglichen. Hier sind einige Beispiele:
+•	TCP/IP (Transmission Control Protocol/Internet Protocol): Dies ist das grundlegende Kommunikationsprotokoll des Internets.
+TCP stellt sicher, dass Daten sicher und zuverlässig übertragen werden. Es legt fest,
+wie Daten in Pakete aufgeteilt und wieder zusammengeführt werden. IP bestimmt, wie Daten zwischen Computern geroutet werden.
+•	HTTP (Hypertext Transfer Protocol): HTTP ist ein Protokoll, das regelt,
+ wie Webseiten und andere Ressourcen vom Server zum Browser oder Client übertragen und angezeigt werden.
+ Browser verwenden HTTP, um Webseiten von Webservern abzurufen und sie dem Benutzer anzuzeigen.
+•	FTP (File Transfer Protocol): FTP ist ein Protokoll, das die sichere Übertragung von Dateien zwischen Computern ermöglicht.
+Es wird insbesondere für Dateifreigabe und die Verwaltung von Websites verwendet.
+•	SMTP (Simple Mail Transfer Protocol): SMTP ist ein Protokoll, das die Kommunikation von E-Mails regelt.
+Es wird für das Senden und Empfangen von E-Mails verwendet.
+•	POP3 (Post Office Protocol Version 3): POP3 ist ein Protokoll, das verwendet wird, um E-Mails vom E-Mail-Server abzurufen und
+auf den lokalen Computer oder Client herunterzuladen.
+•	IMAP (Internet Message Access Protocol): IMAP ist ein Protokoll, das verwendet wird,
+ um auf auf dem E-Mail-Server gespeicherte E-Mails zuzugreifen.
+ Es ermöglicht das Speichern von E-Mails auf dem Server und den Zugriff von verschiedenen Geräten aus.
+Dies sind nur einige Beispiele, und es gibt viele weitere Internetprotokolle. Diese Protokolle stellen sicher,
+dass das Internet reibungslos und sicher funktioniert und verschiedene Arten von Datenkommunikation unterstützt.
 
 114- Können Sie erklären, was ci/cd ist?
 Kontinuierliche Integration (Continuous Integration):
- Kontinuierliche Integration ist ein Prozess automatisierter Erstellung, Einheitstests, Integrationstests und Codeanalyse. Der Prozess der kontinuierlichen Integration besteht aus automatisierten Tools, die die Korrektheit des neuen Codes vor der Integration sicherstellen. Dies reduziert Integrationsprobleme und ermöglicht eine schnellere Bereitstellung von Software, indem bei jeder Hinzufügung von neuem Code zur Quellcodeverwaltung schnell Rückmeldungen gegeben werden. Normalerweise beinhaltet die kontinuierliche Integration nicht das Testen der Funktionalität der Anwendung.
+ Kontinuierliche Integration ist ein Prozess automatisierter Erstellung, Einheitstests, Integrationstests und Codeanalyse.
+ Der Prozess der kontinuierlichen Integration besteht aus automatisierten Tools,
+  die die Korrektheit des neuen Codes vor der Integration sicherstellen. Dies reduziert Integrationsprobleme und
+  ermöglicht eine schnellere Bereitstellung von Software,
+   indem bei jeder Hinzufügung von neuem Code zur Quellcodeverwaltung schnell Rückmeldungen gegeben werden.
+    Normalerweise beinhaltet die kontinuierliche Integration nicht das Testen der Funktionalität der Anwendung.
 In einfachen Worten: Die Praxis, alle Arbeitskopien der Entwickler mehrmals täglich in einen gemeinsamen Hauptzweig zu fusionieren.
-Kontinuierliche Auslieferung (Continuous Delivery) ist ein automatisierter Prozess zur Erstellung und Ausführung von Einheitstests und Integrationstests, zur Durchführung von Codeanalysen, Funktionstests und zur Bereitstellung auf jeder unterstützten Plattform zu jeder Zeit. Jedes Mal, wenn ein Build oder eine Gruppe von Codes die Tests besteht, wird er automatisch in eine Testumgebung bereitgestellt. In der kontinuierlichen Auslieferung ist die Veröffentlichung an Endbenutzer ein manueller Prozess. Kontinuierliche Auslieferung beinhaltet menschliche Entscheidungen, wenn es darum geht, wann die Software an die Kunden freigegeben wird.
-Kontinuierliche Bereitstellung (Continuous Deployment) bedeutet, dass jede Änderung, die Sie vornehmen, durch die Pipeline geht und wenn sie alle Tests besteht, wird sie automatisch in die Produktion bereitgestellt. Wenn ein Entwickler Code eincheckt, nehmen die automatisierten Prozesse den Code und bewegen ihn durch den gesamten Lebenszyklus. Wenn er jedes Tor passiert, wird er direkt in die Produktion bereitgestellt. Die Auslieferungsgeschwindigkeiten sind deutlich schneller, da manuelle Schritte eliminiert werden.
+
+Kontinuierliche Auslieferung (Continuous Delivery) ist ein automatisierter Prozess zur Erstellung und Ausführung von Einheitstests und
+ Integrationstests, zur Durchführung von Codeanalysen, Funktionstests und zur Bereitstellung auf jeder unterstützten Plattform zu jeder Zeit.
+ Jedes Mal, wenn ein Build oder eine Gruppe von Codes die Tests besteht, wird er automatisch in eine Testumgebung bereitgestellt.
+ In der kontinuierlichen Auslieferung ist die Veröffentlichung an Endbenutzer ein manueller Prozess.
+  Kontinuierliche Auslieferung beinhaltet menschliche Entscheidungen, wenn es darum geht, wann die Software an die Kunden freigegeben wird.
+Kontinuierliche Bereitstellung (Continuous Deployment) bedeutet, dass jede Änderung,
+ die Sie vornehmen, durch die Pipeline geht und wenn sie alle Tests besteht, wird sie automatisch in die Produktion bereitgestellt.
+ Wenn ein Entwickler Code eincheckt, nehmen die automatisierten Prozesse den Code und bewegen ihn durch den gesamten Lebenszyklus.
+  Wenn er jedes Tor passiert, wird er direkt in die Produktion bereitgestellt.
+  Die Auslieferungsgeschwindigkeiten sind deutlich schneller, da manuelle Schritte eliminiert werden.
 In einfachen Worten: Die Praxis, bei der der Wert häufig durch automatisierte Bereitstellungen geliefert wird.
 115- Wie funktioniert der CI/CD-Prozess?
-Der CI/CD (Continuous Integration/Continuous Deployment) Prozess ist eine Sammlung von Automatisierungs- und Methodenansätzen, die entwickelt wurden, um den Softwareentwicklungsprozess zu beschleunigen und zu verbessern. Hier ist eine grundlegende Erklärung, wie der CI/CD-Prozess funktioniert:
-•	Kodierung: Das Softwareentwicklungsteam beginnt mit dem Schreiben von Code, um neue Funktionen hinzuzufügen oder Fehler zu beheben. Jede Code-Änderung wird mithilfe eines Versionskontrollsystems (VCS) erfasst. Diese Code-Änderungen werden normalerweise in einem Entwicklungszweig (Branch) durchgeführt.
-•	Continuous Integration (CI): Wenn Entwickler ihren Code im VCS speichern, startet automatisch eine Reihe von Prozessen. Dieser Prozess umfasst das automatische Kompilieren des Codes, das Ausführen von Unit-Tests und das Überprüfen der Code-Kompatibilität. Dieser Schritt bestätigt, dass der von den Entwicklern geschriebene Code die grundlegenden Funktionen nicht beeinträchtigt und den aktuellen Betrieb der Anwendung nicht stört.
-•	Code-Überprüfung: Selbst wenn CI erfolgreich ist, ist es wichtig, in diesem Stadium eine manuelle Code-Überprüfung (Code-Review) durchzuführen. Andere Entwickler oder Teammitglieder überprüfen den geschriebenen Code, finden Fehler und geben Empfehlungen zur Verbesserung der Code-Qualität ab.
-•	Continuous Deployment (CD): Bei erfolgreichem CI und abgeschlossener Code-Überprüfung wird der automatische Bereitstellungsprozess gestartet. In diesem Stadium wird die Software automatisch auf Testserver oder in eine Live-Umgebung bereitgestellt. Die automatische Bereitstellung ermöglicht es, die Software schnell einsatzbereit zu machen.
-•	Funktionale Tests: Im CD- Stadium werden mithilfe von Automatisierung funktionale Tests für die Anwendung durchgeführt. Diese Tests stellen sicher, dass die neue Version der Anwendung in funktionaler Hinsicht ordnungsgemäß funktioniert.
-•	Genehmigung und Live-Schaltung: Wenn alle Tests erfolgreich abgeschlossen sind, kann die Software für den Live-Betrieb freigegeben werden. Dies ermöglicht den Benutzern den Zugriff auf die neue Version. Einige Organisationen erfordern jedoch möglicherweise eine menschliche Genehmigung in diesem Stadium.
-•	Überwachung und Feedback: Nach der Live-Schaltung wird die Software kontinuierlich überwacht, und ihre Leistung wird überwacht. Benutzerfeedback und Leistungsdaten ermöglichen Feedback für zukünftige Updates.
-Der CI/CD-Prozess trägt dazu bei, die Softwareentwicklung schneller und zuverlässiger zu gestalten und Fehler frühzeitig zu erkennen. Dies verbessert die Effizienz des Softwareentwicklungsprozesses und bietet den Benutzern eine bessere Erfahrung.
+Der CI/CD (Continuous Integration/Continuous Deployment) Prozess ist eine Sammlung von Automatisierungs- und Methodenansätzen,
+ die entwickelt wurden, um den Softwareentwicklungsprozess zu beschleunigen und zu verbessern.
+  Hier ist eine grundlegende Erklärung, wie der CI/CD-Prozess funktioniert:
+•	Kodierung: Das Softwareentwicklungsteam beginnt mit dem Schreiben von Code,
+um neue Funktionen hinzuzufügen oder Fehler zu beheben. Jede Code-Änderung wird mithilfe eines Versionskontrollsystems (VCS) erfasst.
+Diese Code-Änderungen werden normalerweise in einem Entwicklungszweig (Branch) durchgeführt.
+•	Continuous Integration (CI): Wenn Entwickler ihren Code im VCS speichern, startet automatisch eine Reihe von Prozessen.
+ Dieser Prozess umfasst das automatische Kompilieren des Codes, das Ausführen von Unit-Tests und das Überprüfen der Code-Kompatibilität.
+  Dieser Schritt bestätigt, dass der von den Entwicklern geschriebene Code die grundlegenden Funktionen nicht beeinträchtigt und
+  den aktuellen Betrieb der Anwendung nicht stört.
+•	Code-Überprüfung: Selbst wenn CI erfolgreich ist, ist es wichtig, in diesem Stadium eine manuelle Code-Überprüfung (Code-Review)durchzuführen. Andere Entwickler oder Teammitglieder überprüfen den geschriebenen Code, finden Fehler und geben Empfehlungen zur Verbesserung der Code-Qualität ab.
+•	Continuous Deployment (CD): Bei erfolgreichem CI und abgeschlossener Code-Überprüfung wird der automatische Bereitstellungsprozess gestartet.
+ In diesem Stadium wird die Software automatisch auf Testserver oder in eine Live-Umgebung bereitgestellt.
+ Die automatische Bereitstellung ermöglicht es, die Software schnell einsatzbereit zu machen.
+•	Funktionale Tests: Im CD- Stadium werden mithilfe von Automatisierung funktionale Tests für die Anwendung durchgeführt.
+ Diese Tests stellen sicher, dass die neue Version der Anwendung in funktionaler Hinsicht ordnungsgemäß funktioniert.
+•	Genehmigung und Live-Schaltung: Wenn alle Tests erfolgreich abgeschlossen sind, kann die Software für den Live-Betrieb freigegeben werden.
+ Dies ermöglicht den Benutzern den Zugriff auf die neue Version.
+  Einige Organisationen erfordern jedoch möglicherweise eine menschliche Genehmigung in diesem Stadium.
+•	Überwachung und Feedback: Nach der Live-Schaltung wird die Software kontinuierlich überwacht,
+und ihre Leistung wird überwacht. Benutzerfeedback und Leistungsdaten ermöglichen Feedback für zukünftige Updates.
+Der CI/CD-Prozess trägt dazu bei, die Softwareentwicklung schneller und zuverlässiger zu gestalten und Fehler frühzeitig zu erkennen.
+ Dies verbessert die Effizienz des Softwareentwicklungsprozesses und bietet den Benutzern eine bessere Erfahrung.
 116- Welche Tools haben Sie verwendet?
-. Framework Tools: TestNG + Selenium ● Java, Maven, TestNG, ● Selenium, Extend Reports with screenshots Log4J, ● JDBC, Rest Assured, Apache POI, Git,Jenkins
+. Framework Tools: TestNG + Selenium ● Java, Maven, TestNG, ● Selenium, Extend Reports with screenshots Log4J,
+● JDBC, Rest Assured, Apache POI, Git,Jenkins
 117- Was wissen Sie über Jenkins? (104-Wie benutzt du Jenkins?)
-Jenkins ist ein Continuous Integration (CI) und Continuous Deployment (CD) Tool. Es wird verwendet, um Builds, Bereitstellungen und andere Entwicklungsprozesse zu planen und zu automatisieren. Jenkins wird von Entwicklern und Testern genutzt.
+Jenkins ist ein Continuous Integration (CI) und Continuous Deployment (CD) Tool.
+Es wird verwendet, um Builds, Bereitstellungen und andere Entwicklungsprozesse zu planen und zu automatisieren.
+ Jenkins wird von Entwicklern und Testern genutzt.
 Die drei Hauptkomponenten von Jenkins sind:
 1.	Codeänderung: Entwickler (Devs) führen Änderungen am Anwendungscode durch.
-2.	Test: Das CI-Tool (Continuous Integration) erkennt automatisch die vorgenommenen Codeänderungen und führt automatische Tests an der Anwendung durch.
-3.	Bereitstellung: Das CI-Tool kann die Anwendung automatisch mit den vorgenommenen Änderungen bereitstellen und somit sicherstellen, dass die aktualisierte Anwendung verfügbar ist.
-Jenkins ermöglicht es, Entwicklungsprozesse zu automatisieren, was die Effizienz steigert und die Qualität der Softwareentwicklung erhöht. Es wird häufig von Softwareentwicklern und Testern eingesetzt, um kontinuierliche Integration und Bereitstellung sicherzustellen.
+2.	Test: Das CI-Tool (Continuous Integration) erkennt automatisch die vorgenommenen Codeänderungen und
+ führt automatische Tests an der Anwendung durch.
+3.	Bereitstellung: Das CI-Tool kann die Anwendung automatisch mit den vorgenommenen Änderungen bereitstellen und somit sicherstellen,
+dass die aktualisierte Anwendung verfügbar ist.
+Jenkins ermöglicht es, Entwicklungsprozesse zu automatisieren, was die Effizienz steigert und die Qualität der Softwareentwicklung erhöht.
+ Es wird häufig von Softwareentwicklern und Testern eingesetzt, um kontinuierliche Integration und Bereitstellung sicherzustellen.
 118- Was sind Ihrer Meinung nach die Vorteile von CI/CD?
-Die Vorteile von CI/CD (Continuous Integration/Continuous Deployment) sind vielfältig und bieten in nahezu jeder Phase des Softwareentwicklungsprozesses Vorteile. Hier sind einige wichtige Vorteile von CI/CD:
-1.	Schnelle und kontinuierliche Bereitstellung: CI/CD ermöglicht eine schnellere Bereitstellung von Software. Jede Code-Änderung wird sofort getestet und bei Bedarf automatisch bereitgestellt. Dadurch können neue Funktionen oder Fehlerkorrekturen schneller verfügbar gemacht werden.
-2.	Frühe Fehlererkennung: CI/CD testet automatisch jede Code-Änderung. Dies ermöglicht eine frühzeitige Erkennung von Fehlern und deren Behebung, sodass in späteren Phasen keine größeren Probleme auftreten.
-3.	Höhere Softwarequalität: Kontinuierliche Tests und automatische Codeprüfungen erhöhen die Softwarequalität. Hochwertiger Code führt zu einer zuverlässigeren und stabileren Anwendung.
-4.	Wiederholbarkeit: CI/CD-Prozesse sind wiederholbar und konsistent. Dies gewährleistet, dass jede Version der Software auf ähnliche Weise erstellt und bereitgestellt wird.
-5.	Zusammenarbeit erleichtern: CI/CD fördert Codeprüfungen und Zusammenarbeit. Teams können einfacher zusammenkommen, um Code zu überprüfen und zu teilen.
+Die Vorteile von CI/CD (Continuous Integration/Continuous Deployment) sind vielfältig und bieten in nahezu jeder Phase
+ des Softwareentwicklungsprozesses Vorteile. Hier sind einige wichtige Vorteile von CI/CD:
+1.	Schnelle und kontinuierliche Bereitstellung: CI/CD ermöglicht eine schnellere Bereitstellung von Software.
+ Jede Code-Änderung wird sofort getestet und bei Bedarf automatisch bereitgestellt.
+ Dadurch können neue Funktionen oder Fehlerkorrekturen schneller verfügbar gemacht werden.
+2.	Frühe Fehlererkennung: CI/CD testet automatisch jede Code-Änderung. Dies ermöglicht eine frühzeitige Erkennung von Fehlern und
+ deren Behebung, sodass in späteren Phasen keine größeren Probleme auftreten.
+3.	Höhere Softwarequalität: Kontinuierliche Tests und automatische Codeprüfungen erhöhen die Softwarequalität.
+ Hochwertiger Code führt zu einer zuverlässigeren und stabileren Anwendung.
+4.	Wiederholbarkeit: CI/CD-Prozesse sind wiederholbar und konsistent. Dies gewährleistet,
+dass jede Version der Software auf ähnliche Weise erstellt und bereitgestellt wird.
+5.	Zusammenarbeit erleichtern: CI/CD fördert Codeprüfungen und Zusammenarbeit. Teams können einfacher zusammenkommen,
+ um Code zu überprüfen und zu teilen.
 6.	Automatisierung: CI/CD automatisiert viele Aufgaben, was menschliche Fehler reduziert und die Arbeitsbelastung verringert.
 7.	Sicherheit: Automatische Sicherheitsprüfungen und Code-Scans ermöglichen die frühzeitige Erkennung von Sicherheitslücken.
-8.	Kosteneinsparungen und Zeitersparnis: CI/CD automatisiert Geschäftsprozesse und spart dadurch Zeit und Kosten. Die Reduzierung manueller, sich wiederholender Aufgaben erhöht die Effizienz erheblich.
-9.	Schnelles Feedback: Im Falle eines Fehlers ermöglicht CI/CD schnelles Zurückverfolgen zum Ursprung des Problems und somit eine schnellere Fehlerbehebung.
-10.	Hohe Kundenzufriedenheit: Die kontinuierliche Bereitstellung ermöglicht es, Kunden schneller neue Funktionen anzubieten und Fehler schneller zu beheben, was die Kundenzufriedenheit erhöht.
-Diese Vorteile unterstreichen den Wert von CI/CD im Softwareentwicklungsprozess und erklären, warum es von vielen Organisationen übernommen wird.
+8.	Kosteneinsparungen und Zeitersparnis: CI/CD automatisiert Geschäftsprozesse und spart dadurch Zeit und Kosten.
+Die Reduzierung manueller, sich wiederholender Aufgaben erhöht die Effizienz erheblich.
+9.	Schnelles Feedback: Im Falle eines Fehlers ermöglicht CI/CD schnelles Zurückverfolgen zum Ursprung des Problems und
+ somit eine schnellere Fehlerbehebung.
+10.	Hohe Kundenzufriedenheit: Die kontinuierliche Bereitstellung ermöglicht es, Kunden schneller neue Funktionen anzubieten und
+Fehler schneller zu beheben, was die Kundenzufriedenheit erhöht.
+Diese Vorteile unterstreichen den Wert von CI/CD im Softwareentwicklungsprozess und erklären,
+ warum es von vielen Organisationen übernommen wird.
 119. Haben Sie Testautomatisierungsberichte geschrieben? Was hast du benutzt? Welche Schritte sind Sie befolgt?
-Ich habe Jira Xray für Testautomatisierungsberichte verwendet. Wenn ich einen Fehler finde, habe ich ein entsprechendes Fehler-Ticket erstellt und die durchgeführten Maßnahmen im Zusammenhang mit diesem Fehler verfolgt. Wenn kein Fehler aufgetreten ist, habe ich die durchgeführten Testschritte ausführlich beschrieben und dokumentiert.
+Ich habe Jira Xray für Testautomatisierungsberichte verwendet. Wenn ich einen Fehler finde, habe ich ein entsprechendes Fehler-Ticket erstellt
+und die durchgeführten Maßnahmen im Zusammenhang mit diesem Fehler verfolgt. Wenn kein Fehler aufgetreten ist,
+ habe ich die durchgeführten Testschritte ausführlich beschrieben und dokumentiert.
 
 
 
