@@ -2,15 +2,29 @@
 1.	Was ist STLC?
 
 STLC steht für Software Testing Life Cycle (STLC) und ist ein systematischer Ansatz, dem Softwaretester folgen,
-um die Qualität und Zuverlässigkeit eines Softwareprodukts sicherzustellen. Es besteht aus mehreren Phasen, von denen jede spezifische Ziele
-und Aktivitäten hat. Die erste Phase ist die Anforderungsanalyse.
+um die Qualität und Zuverlässigkeit eines Softwareprodukts sicherzustellen. Es besteht aus mehreren Phasen, von denen
+jede spezifische Ziele und Aktivitäten hat. Die erste Phase ist die Anforderungsanalyse.
 
-a)Anforderungsanalyse: In dieser Phase analysieren Tester die Softwareanforderungen, um ein klares Verständnis dafür zu bekommen, was getestet werden muss. Die Anforderungen werden zum ersten Mal vom Projektmanager vorgestellt. Während dieser Phase ist die Aufgabe des SDET, die Anforderungen im Detail zu verstehen und bei Bedarf mit dem Business Analysten zu interagieren.
-b)Testplanung: Die Testplanung umfasst die Erstellung einer detaillierten Teststrategie und eines Testplans. Der Projektmanager stellt das Teststrategie-Dokument während des Freigabeplan-Meetings bereit. In dieser Phase müssen folgende Fragen beantwortet werden: Wer sind die Tester? Was ist die Rolle und Verantwortung jedes Testers? Was ist die Teststrategie? Wer macht was?
-c)Testfallentwicklung: Tester entwerfen und entwickeln Testfälle auf der Grundlage der Softwareanforderungen. Testfälle geben die auszuführenden Schritte zusammen mit den erwarteten Ergebnissen an. Während dieser Phase werden auch Testdaten und Testskripte vorbereitet.
-d)Einrichtung der Testumgebung: Tester richten die erforderliche Testumgebung ein, zu der Hardware-, Software- und Netzwerkkonfigurationen gehören. Sie stellen sicher, dass die Umgebung für die Ausführung von Testfällen bereit ist und die Produktionsumgebung genau repräsentiert.
-e)Testausführung: In dieser Phase findet das eigentliche Testen statt. Tester führen die vorbereiteten Testfälle aus, erfassen die tatsächlichen Ergebnisse und vergleichen sie mit den erwarteten Ergebnissen. Fehler oder Probleme werden zur weiteren Analyse gemeldet.
-f)Testabschluss: Die Phase des Testabschlusses beinhaltet die abschließende Bearbeitung der Testaktivitäten. Tester erstellen Testabschlussberichte, in denen der Testaufwand, die Testabdeckung, identifizierte Mängel und die Gesamtqualität der Software zusammengefasst werden.
+a)Anforderungsanalyse: In dieser Phase analysieren Tester die Softwareanforderungen, um ein klares Verständnis dafür zu
+bekommen, was getestet werden muss. Die Anforderungen werden zum ersten Mal vom Projektmanager vorgestellt. Während
+dieser Phase ist die Aufgabe des SDET, die Anforderungen im Detail zu verstehen und bei Bedarf mit dem Business
+Analysten zu interagieren.
+b)Testplanung: Die Testplanung umfasst die Erstellung einer detaillierten Teststrategie und eines Testplans. Der
+Projektmanager stellt das Teststrategie-Dokument während des Freigabeplan-Meetings bereit. In dieser Phase müssen
+folgende Fragen beantwortet werden: Wer sind die Tester? Was ist die Rolle und Verantwortung jedes Testers? Was ist
+die Teststrategie? Wer macht was?
+c)Testfallentwicklung: Tester entwerfen und entwickeln Testfälle auf der Grundlage der Softwareanforderungen.
+Testfälle geben die auszuführenden Schritte zusammen mit den erwarteten Ergebnissen an. Während dieser Phase werden
+auch Testdaten und Testskripte vorbereitet.
+d)Einrichtung der Testumgebung: Tester richten die erforderliche Testumgebung ein, zu der Hardware-, Software- und
+Netzwerkkonfigurationen gehören. Sie stellen sicher, dass die Umgebung für die Ausführung von Testfällen bereit ist
+und die Produktionsumgebung genau repräsentiert.
+e)Testausführung: In dieser Phase findet das eigentliche Testen statt. Tester führen die vorbereiteten Testfälle aus,
+erfassen die tatsächlichen Ergebnisse und vergleichen sie mit den erwarteten Ergebnissen. Fehler oder Probleme werden
+zur weiteren Analyse gemeldet.
+f)Testabschluss: Die Phase des Testabschlusses beinhaltet die abschließende Bearbeitung der Testaktivitäten. Tester
+erstellen Testabschlussberichte, in denen der Testaufwand, die Testabdeckung, identifizierte Mängel und die
+Gesamtqualität der Software zusammengefasst werden.
 
 
 2.	Was sind Ihre Tools für das Testen von APIs?
@@ -30,40 +44,56 @@ c)	Meine Rolle und Verantwortlichkeiten
 4.	Welche Methoden werden in der Basisklasse verwendet?
 
 Ich habe in meiner Basisklasse 'before' und 'after' Methoden verwendet und diese Klasse abstrakt gemacht.
-Auf diese Weise wurden die 'before' und 'after' Methoden für alle Klassen, die ich von der Basisklasse erweitert habe, ausgeführt.
+Auf diese Weise wurden die 'before' und 'after' Methoden für alle Klassen, die ich von der Basisklasse erweitert
+habe, ausgeführt.
 In der 'before'-Methode habe ich den Treiber initialisiert, und in der 'after'-Methode habe ich den Treiber geschlossen.
 
 5.Was ist Gherkin?
 
-Gherkin ist eine domänenspezifische Sprache (DSL), die in der Softwareentwicklung verwendet wird, insbesondere im Kontext
-von Behavior-Driven Development (BDD) und Testautomatisierung. Gherkin dient dazu, menschenlesbare und strukturierte Testspezifikationen
+Gherkin ist eine domänenspezifische Sprache (DSL), die in der Softwareentwicklung verwendet wird, insbesondere
+im Kontext
+von Behavior-Driven Development (BDD) und Testautomatisierung. Gherkin dient dazu, menschenlesbare und strukturierte
+Testspezifikationen
 zu erstellen, die von Entwicklern, Testern und anderen Teammitgliedern leicht verstanden werden können.
-Die Gherkin-Syntax basiert auf einfachen Schlüsselwörtern und beschreibt Szenarien, Funktionen und Schritte für Softwaretests.
-Die Syntax umfasst Schlüsselwörter wie "Given" (Gegeben), "When" (Wenn), "Then" (Dann) und andere, um den Zustand, die Aktionen und
-die erwarteten Ergebnisse in einem Szenario klar zu definieren. Diese Gherkin-Spezifikationen werden in der Regel in sogenannten
+Die Gherkin-Syntax basiert auf einfachen Schlüsselwörtern und beschreibt Szenarien, Funktionen und Schritte
+ für Softwaretests.
+Die Syntax umfasst Schlüsselwörter wie "Given" (Gegeben), "When" (Wenn), "Then" (Dann) und andere, um den Zustand,
+die Aktionen und
+die erwarteten Ergebnisse in einem Szenario klar zu definieren. Diese Gherkin-Spezifikationen werden in der Regel
+ in sogenannten
 Feature-Dateien geschrieben.
 
 6.Können Sie  SQL-JOIN verwenden und welche Arten gibt es?
 
 Ja, ich kann SQL-JOIN verwenden. Es gibt verschiedene Arten von JOIN-Operationen in SQL:
-a)	INNER JOIN: Diese Operation gibt nur die Zeilen zurück, für die es Übereinstimmungen in beiden verknüpften Tabellen gibt.
-b)	LEFT JOIN (auch LEFT OUTER JOIN genannt): Dies gibt alle Zeilen aus der linken Tabelle und die übereinstimmenden Zeilen
-aus der rechten Tabelle zurück. Wenn keine Übereinstimmung in der rechten Tabelle gefunden wird, werden NULL-Werte zurückgegeben.
-c)	RIGHT JOIN (auch RIGHT OUTER JOIN genannt): Dies ist das Gegenteil von LEFT JOIN. Es gibt alle Zeilen aus der rechten Tabelle
+a)	INNER JOIN: Diese Operation gibt nur die Zeilen zurück, für die es Übereinstimmungen in beiden verknüpften Tabellen
+gibt.
+b)	LEFT JOIN (auch LEFT OUTER JOIN genannt): Dies gibt alle Zeilen aus der linken Tabelle und die übereinstimmenden
+ Zeilen
+aus der rechten Tabelle zurück. Wenn keine Übereinstimmung in der rechten Tabelle gefunden wird, werden NULL-Werte
+zurückgegeben.
+c)	RIGHT JOIN (auch RIGHT OUTER JOIN genannt): Dies ist das Gegenteil von LEFT JOIN. Es gibt alle Zeilen aus der
+rechten Tabelle
 und die übereinstimmenden Zeilen aus der linken Tabelle zurück.
 d)	FULL OUTER JOIN: Diese Operation gibt alle Zeilen aus beiden Tabellen zurück und füllt fehlende Werte mit NULL auf.
 e)	SELF JOIN: Dies wird verwendet, wenn Sie eine Tabelle mit sich selbst verknüpfen, um Beziehungen zwischen Zeilen
 in derselben Tabelle zu erstellen.
 
-Diese JOIN-Arten ermöglichen es, Daten aus mehreren Tabellen miteinander zu verknüpfen und komplexe Abfragen durchzuführen,
+Diese JOIN-Arten ermöglichen es, Daten aus mehreren Tabellen miteinander zu verknüpfen und komplexe Abfragen
+durchzuführen,
 um benötigte Informationen abzurufen.
 
 
-7.Was ist ein Query?(eigentlich wurde 2 tabellen gegeben und vielleicht fragten die nach dem Join. Ich wollte hierhin the Beschreibung einschreiben)
+7.Was ist ein Query?(eigentlich wurde 2 tabellen gegeben und vielleicht fragten die nach dem Join. Ich wollte hierhin
+the Beschreibung einschreiben)
 
-Ein "Query" (Abfrage) ist eine Anfrage oder Fragestellung, die in der Datenbankverwaltung und im Bereich der Datenbankabfragen verwendet wird. Eine Abfrage wird verwendet, um Daten aus einer Datenbank abzurufen, zu bearbeiten, hinzuzufügen, zu aktualisieren oder zu löschen. In der Regel wird eine Abfragesprache wie SQL (Structured Query Language) verwendet, um Abfragen an eine Datenbank zu stellen.
+Ein "Query" (Abfrage) ist eine Anfrage oder Fragestellung, die in der Datenbankverwaltung und im Bereich der
+Datenbankabfragen verwendet wird. Eine Abfrage wird verwendet, um Daten aus einer Datenbank abzurufen, zu bearbeiten,
+hinzuzufügen, zu aktualisieren oder zu löschen. In der Regel wird eine Abfragesprache wie SQL
+(Structured Query Language) verwendet, um Abfragen an eine Datenbank zu stellen.
 Eine Abfrage kann verschiedene Formen haben, darunter:
-a)	SELECT-Abfrage: Diese wird verwendet, um Daten aus einer oder mehreren Tabellen abzurufen. Sie können bestimmte Spalten auswählen, Filterkriterien festlegen und sogar Daten aus verschiedenen Tabellen miteinander verknüpfen.
+a)	SELECT-Abfrage: Diese wird verwendet, um Daten aus einer oder mehreren Tabellen abzurufen. Sie können bestimmte
+Spalten auswählen, Filterkriterien festlegen und sogar Daten aus verschiedenen Tabellen miteinander verknüpfen.
 b)	INSERT-Abfrage: Diese fügt neue Datensätze in eine Datenbanktabelle ein.
 c)	UPDATE-Abfrage: Mit dieser können Sie vorhandene Datensätze in einer Datenbank aktualisieren.
 d)	DELETE-Abfrage: Diese wird verwendet, um Datensätze aus einer Datenbank zu löschen.
@@ -74,67 +104,96 @@ das Abrufen von Informationen aus Datenbanken in vielen Anwendungen und Systemen
 
 8.Was ist ein API Dokument?
 
-Ein API-Dokument ist ein schriftliches oder elektronisches Dokument, das Informationen und Anleitungen zur Verwendung einer
-Application Programming Interface (API) enthält. Eine API ist eine Schnittstelle, die es Entwicklern ermöglicht, auf bestimmte Funktionen
-oder Dienste einer Softwareanwendung, eines Betriebssystems oder eines anderen Computersystems zuzugreifen und mit diesen zu interagieren.
-Ein API-Dokument dient dazu, Entwicklern die erforderlichen Informationen zur Verfügung zu stellen, um die API erfolgreich nutzen zu können.
+Ein API-Dokument ist ein schriftliches oder elektronisches Dokument, das Informationen und Anleitungen zur Verwendung
+einer
+Application Programming Interface (API) enthält. Eine API ist eine Schnittstelle, die es Entwicklern ermöglicht,
+auf bestimmte Funktionen
+oder Dienste einer Softwareanwendung, eines Betriebssystems oder eines anderen Computersystems zuzugreifen und mit
+diesen zu interagieren.
+Ein API-Dokument dient dazu, Entwicklern die erforderlichen Informationen zur Verfügung zu stellen, um die API
+erfolgreich nutzen zu können.
 Es enthält in der Regel folgende Informationen:
 
 9.Was machen Sie, wenn Sie einen Fehler finden?
 
-a)Zuerst würde ich sicherstellen, dass der von mir festgestellte Fehler nicht aufgrund meines eigenen Codes ist. Wenn es tatsächlich ein Fehler ist, würde ich mit dem Entwickler sprechen. Wenn beschlossen wird, ein Fehler-Ticket zu öffnen, würde ich folgende Schritte verfolgen:
+a)Zuerst würde ich sicherstellen, dass der von mir festgestellte Fehler nicht aufgrund meines eigenen Codes ist. Wenn
+es tatsächlich ein Fehler ist, würde ich mit dem Entwickler sprechen. Wenn beschlossen wird, ein Fehler-Ticket zu
+öffnen, würde ich folgende Schritte verfolgen:
 b)Notieren: Schreibe auf, was genau der Defekt ist und wo du ihn entdeckt hast.
-c)Details hinzufügen: Beschreibe den Defekt so deutlich wie möglich. Wenn du Fotos oder Screenshots hast, füge sie hinzu, um es verständlicher zu machen.
-d)Dringlichkeit betonen: Wenn der Defekt wichtig ist, weise darauf hin. Wenn er Geschäftsprozesse beeinträchtigt, ist eine schnelle Reaktion wichtig.
+c)Details hinzufügen: Beschreibe den Defekt so deutlich wie möglich. Wenn du Fotos oder Screenshots hast, füge sie
+hinzu, um es verständlicher zu machen.
+d)Dringlichkeit betonen: Wenn der Defekt wichtig ist, weise darauf hin. Wenn er Geschäftsprozesse beeinträchtigt,
+ist eine schnelle Reaktion wichtig.
 e)Nachfragen: Frage nach dem Fortschritt bei der Behebung des Defekts. Halte dich über Updates auf dem Laufenden.
-f)Lösung dokumentieren: Sobald der Defekt behoben ist, halte die Lösungsschritte schriftlich fest. Das kann bei ähnlichen Problemen in der Zukunft hilfreich sein.
+f)Lösung dokumentieren: Sobald der Defekt behoben ist, halte die Lösungsschritte schriftlich fest. Das kann bei
+ähnlichen Problemen in der Zukunft hilfreich sein.
 
 10.Wenn Sie Schwierigkeiten mit Ihrem Arbeitskollegen haben, was würden Sie tun?
 
-•	Kommunikation: Zuerst versuche ich, die Probleme offen anzusprechen. Ich suche das Gespräch mit meinem Kollegen und versuche zu verstehen,
+•	Kommunikation: Zuerst versuche ich, die Probleme offen anzusprechen. Ich suche das Gespräch mit meinem Kollegen und
+ versuche zu verstehen,
 warum wir Schwierigkeiten haben.
-•	Zuhören und Empathie zeigen: Ich höre die Ansichten und Bedenken meines Kollegen an. Ich versuche, seine Perspektive zu verstehen
+•	Zuhören und Empathie zeigen: Ich höre die Ansichten und Bedenken meines Kollegen an. Ich versuche, seine Perspektive
+ zu verstehen
 und zeige Empathie.
-•	Gemeinsame Lösungen finden: Wir arbeiten zusammen, um Probleme zu lösen. Wir tauschen Ideen aus und versuchen, gemeinsame Lösungen zu finden.
-In jedem Fall ist offene Kommunikation, Verständnis und Zusammenarbeit wichtig, um Probleme zwischen Arbeitskollegen zu lösen.
+•	Gemeinsame Lösungen finden: Wir arbeiten zusammen, um Probleme zu lösen. Wir tauschen Ideen aus und versuchen,
+gemeinsame Lösungen zu finden.
+In jedem Fall ist offene Kommunikation, Verständnis und Zusammenarbeit wichtig, um Probleme zwischen Arbeitskollegen
+zu lösen.
 
 
 11.Wie implementieren Sie AGILE in Ihrem aktuellen Projekt?
 
-In meinem Team folgen wir dem agilen Scrum-Framework, das eine Reihe von Meetings, Tools und Rollen umfasst, um unsere Arbeit effektiv
-zu managen. Unser Team besteht aus 8 Mitgliedern, darunter ein Product Owner (PO), ein Scrum Master (SM), 4 Entwicklern und
+In meinem Team folgen wir dem agilen Scrum-Framework, das eine Reihe von Meetings, Tools und Rollen umfasst, um unsere
+Arbeit effektiv
+zu managen. Unser Team besteht aus 8 Mitgliedern, darunter ein Product Owner (PO), ein Scrum Master (SM), 4 Entwicklern
+ und
 2 Qualitätssicherungsexperten (QA). Wir arbeiten mit einem 2-wöchigen Sprint-Zyklus.
 
 •	Unser Sprint beginnt mit einem Grooming-Meeting, an dem alle Scrum-Mitglieder teilnehmen.
-•	Als nächstes haben wir das Sprint-Planning-Meeting, um das Sprint-Ziel festzulegen und die spezifischen Aufgaben und User Stories zu identifizieren, an denen gearbeitet werden soll.
-•	Jeden Morgen um 9:00 Uhr halten wir ein Daily Stand-up-Meeting ab, um Updates zum Status unserer Aufgaben zu geben. Wir beantworten drei Fragen: Was haben wir gestern gemacht, was planen wir für heute und gibt es irgendwelche Blockaden?
-•	Am letzten Tag des Sprints führen wir ein Demo-Meeting mit dem Kunden durch, um unsere abgeschlossene Arbeit zu präsentieren.
-•	Schließlich halten wir ein Retro-Meeting mit dem SM und dem Entwicklungsteam ab. Dieses Meeting konzentriert sich auf die Identifizierung von Verbesserungsmöglichkeiten.
+•	Als nächstes haben wir das Sprint-Planning-Meeting, um das Sprint-Ziel festzulegen und die spezifischen Aufgaben
+und User Stories zu identifizieren, an denen gearbeitet werden soll.
+•	Jeden Morgen um 9:00 Uhr halten wir ein Daily Stand-up-Meeting ab, um Updates zum Status unserer Aufgaben zu geben.
+Wir beantworten drei Fragen: Was haben wir gestern gemacht, was planen wir für heute und gibt es irgendwelche Blockaden?
+•	Am letzten Tag des Sprints führen wir ein Demo-Meeting mit dem Kunden durch, um unsere abgeschlossene Arbeit zu
+präsentieren.
+•	Schließlich halten wir ein Retro-Meeting mit dem SM und dem Entwicklungsteam ab. Dieses Meeting konzentriert sich
+auf die Identifizierung von Verbesserungsmöglichkeiten.
 
 12.	Dokumente sind unvollständig und Sie haben nur Benutzerstories zur Hand. Was machen Sie dann?
 
-•	Klarheit schaffen: Zuerst würde ich versuchen, so viele Informationen wie möglich aus den vorhandenen Benutzerstories zu extrahieren.
+•	Klarheit schaffen: Zuerst würde ich versuchen, so viele Informationen wie möglich aus den vorhandenen
+Benutzerstories zu extrahieren.
 Ich würde sicherstellen, dass ich die Anforderungen und Erwartungen so gut wie möglich verstehe.
 •	Kommunikation mit dem Team: Ich würde das Problem mit meinem Team besprechen.
-•	Rücksprache mit den Stakeholdern: Wenn nötig, würde ich Kontakt zu den Stakeholdern aufnehmen, um weitere Informationen oder
+•	Rücksprache mit den Stakeholdern: Wenn nötig, würde ich Kontakt zu den Stakeholdern aufnehmen, um weitere
+Informationen oder
 Klarstellungen zu erhalten..
-•	Dokumentation erstellen: Falls erforderlich, würde ich versuchen, die fehlenden Dokumente selbst zu erstellen, basierend auf den
+•	Dokumentation erstellen: Falls erforderlich, würde ich versuchen, die fehlenden Dokumente selbst zu erstellen,
+basierend auf den
 verfügbaren Benutzerstories und den erhaltenen Informationen.
-•	Iteration und Feedback: Wir würden iterative Schritte unternehmen und sicherstellen, dass die entwickelte Lösung den Anforderungen
+•	Iteration und Feedback: Wir würden iterative Schritte unternehmen und sicherstellen, dass die entwickelte Lösung
+den Anforderungen
 und Erwartungen entspricht.
 
 13.Was ist das Wichtigste bei der Teamarbeit?
 
-Das Wichtigste bei der Teamarbeit ist die Zusammenarbeit und Kommunikation. Ein erfolgreiches Team zeichnet sich durch eine effektive
-Zusammenarbeit aus, bei der Teammitglieder ihre Fähigkeiten und Ressourcen kombinieren, um gemeinsame Ziele zu erreichen. Die Kommunikation
-innerhalb des Teams ist entscheidend, um Ideen auszutauschen, Hindernisse zu überwinden und sicherzustellen, dass alle auf dem gleichen Stand
-sind. Außerdem ist Vertrauen in die Fähigkeiten und Beiträge der Teammitglieder von großer Bedeutung, um eine positive Arbeitsatmosphäre
+Das Wichtigste bei der Teamarbeit ist die Zusammenarbeit und Kommunikation. Ein erfolgreiches Team zeichnet sich durch
+eine effektive
+Zusammenarbeit aus, bei der Teammitglieder ihre Fähigkeiten und Ressourcen kombinieren, um gemeinsame Ziele zu
+erreichen. Die Kommunikation
+innerhalb des Teams ist entscheidend, um Ideen auszutauschen, Hindernisse zu überwinden und sicherzustellen, dass alle
+auf dem gleichen Stand
+sind. Außerdem ist Vertrauen in die Fähigkeiten und Beiträge der Teammitglieder von großer Bedeutung, um eine positive
+Arbeitsatmosphäre
 zu schaffen und erfolgreich zusammenzuarbeiten.
 
 14.Im Framework, wo und wie werden Testskripte geschrieben?
 
-Wenn es sich um ein Framework handelt, das auf Behavior Driven Development basiert, füge ich die von Cucumber bereitgestellten Schnipsel
-unter den entsprechenden Testfällen im "step definitions"-Ordner hinzu. Dabei erstelle ich Klassen entsprechend meinen Szenarien.
+Wenn es sich um ein Framework handelt, das auf Behavior Driven Development basiert, füge ich die von Cucumber
+bereitgestellten Schnipsel
+unter den entsprechenden Testfällen im "step definitions"-Ordner hinzu. Dabei erstelle ich Klassen entsprechend meinen
+Szenarien.
 Danach schreibe ich meinen Code unter jeden Schnipsel.
 
 15."Warum haben Sie sich für den Beruf des Testers entschieden?
@@ -144,14 +203,22 @@ Danach schreibe ich meinen Code unter jeden Schnipsel.
 16. Könnten Sie Ihre täglichen Aktivitäten beschreiben?
 
 Meine täglichen Aktivitäten bei der Arbeit sehen so aus:
-Morgens überprüfe ich den Ergebnisbericht des Smoke Tests, um sicherzustellen, dass die Umgebung einsatzbereit ist und die Anwendung stabil ist
-oder nicht. Wenn etwas schief geht, sende ich meinem Team eine E-Mail, damit sie sich so schnell wie möglich darum kümmern können.
-Dann überprüfe ich meine E-Mails auf wichtige Aufgaben oder Benachrichtigungen, prüfe meinen Zeitplan auf geplante Besprechungen für den Tag
-und überprüfe auch Jira, um zu sehen, was an diesem Tag erledigt werden muss und welche Priorität hat. Anschließend nehme ich um 10:00 Uhr
-an der täglichen Standup-Meeting mit meinem Scrum-Team teil, um darüber zu sprechen, was wir gestern gemacht haben, was wir heute machen
-werden und ob es irgendwelche Hindernisse gibt. Dieses Treffen dient lediglich der Synchronisation unseres Teams und dauert etwa 15 Minuten.
-Danach beginne ich damit, Testfälle aus den Regressionssuiten zu automatisieren. Außerdem automatisiere ich Testfälle aus dem Sprint-Backlog,
-nachdem ich sie manuell getestet habe, wenn sie bestanden haben. Das sind im Wesentlichen meine täglichen Aktivitäten bei der Arbeit.
+Morgens überprüfe ich den Ergebnisbericht des Smoke Tests, um sicherzustellen, dass die Umgebung einsatzbereit ist und
+die Anwendung stabil ist
+oder nicht. Wenn etwas schief geht, sende ich meinem Team eine E-Mail, damit sie sich so schnell wie möglich darum
+kümmern können.
+Dann überprüfe ich meine E-Mails auf wichtige Aufgaben oder Benachrichtigungen, prüfe meinen Zeitplan auf geplante
+Besprechungen für den Tag
+und überprüfe auch Jira, um zu sehen, was an diesem Tag erledigt werden muss und welche Priorität hat. Anschließend
+nehme ich um 10:00 Uhr
+an der täglichen Standup-Meeting mit meinem Scrum-Team teil, um darüber zu sprechen, was wir gestern gemacht haben, was
+wir heute machen
+werden und ob es irgendwelche Hindernisse gibt. Dieses Treffen dient lediglich der Synchronisation unseres Teams und
+dauert etwa 15 Minuten.
+Danach beginne ich damit, Testfälle aus den Regressionssuiten zu automatisieren. Außerdem automatisiere ich Testfälle
+aus dem Sprint-Backlog,
+nachdem ich sie manuell getestet habe, wenn sie bestanden haben. Das sind im Wesentlichen meine täglichen Aktivitäten
+bei der Arbeit.
 
 (Note: Eine Frage wurde wiederholt. Es gibt 16 Fragen in meinem Teil.)
 
