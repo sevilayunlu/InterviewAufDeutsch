@@ -1,0 +1,298 @@
+52-Was ist API ?
+API steht für "Application Programming Interface" (Schnittstelle für Anwendungsprogrammierung) und
+    bezieht sich auf eine Reihe von Regeln und Protokollen, die es verschiedenen Softwareanwendungen ermöglichen,
+    miteinander zu kommunizieren und Informationen auszutauschen.
+APIs dienen als Brücke zwischen verschiedenen Softwarekomponenten und ermöglichen es Entwicklern,
+    Funktionen und Daten einer Anwendung in anderen Anwendungen zu nutzen,
+    ohne den gesamten Quellcode neu schreiben zu müssen.
+
+53-Wie schreibt man Informationen in POSTMAN(variable)?
+In Postman können Sie Informationen mithilfe von Variablen speichern und in Ihren Anfragen,
+        Tests oder Skripten verwenden. Hier ist, wie Sie Informationen in Postman-Variablen schreiben:
+	## Variable erstellen:
+	# Klicken Sie oben rechts in Postman auf die "Environment"-Schaltfläche, um die Umgebungsvariablen zu öffnen.
+	# Klicken Sie auf "Manage Environments", um zu Ihren Umgebungsvariablen zu gelangen.
+	# Wählen Sie Ihre Umgebung aus oder erstellen Sie eine neue.
+	# Klicken Sie auf "Add" oder "Edit" (Hinzufügen oder Bearbeiten), um eine Variable hinzuzufügen.
+	Geben Sie einen Namen für die Variable ein (z. B. "API_URL") und
+	    geben Sie den entsprechenden Wert ein (z. B. "https://api.example.com").
+
+	##Verwenden Sie die Variable:
+	In Ihren Anfragen können Sie die Variable in doppelten geschweiften Klammern verwenden,
+	    um auf ihren Wert zuzugreifen. Zum Beispiel: {{API_URL}}.
+
+54-Wie können Sie Ihren Job so kurzfristig kündigen?
+Persönliche Antwort:
+Da es sich bei dem Projekt, an dem ich arbeite, um ein Projekt eines US-Unternehmens handelt,
+    habe ich kein Problem mit gesetzlichen Fristen.
+Der andere zuständige Tester kann die bestehenden Testautomatisierungsskripte
+    ohne mich weiterführen.
+Aus diesem Grund genügen mir 3 Wochen, um den Rest meiner Arbeit zu erledigen
+    und das Unternehmen zu verlassen.
+
+55-Hatten Sie Kontakt mit dem Kunden ?
+-Auch das ist eine persönliche Antwort. Keine absolute Antwort-
+Ja, in meiner vorherigen Rolle als SDET hatte ich Kontakt mit dem Kunden.
+Das Projekt war eine Fleet-Management-Webseite. Während des Projekts führte ich regelmäßige Kommunikation
+    mit dem Kunden durch, besonders um Anforderungen zu verstehen,
+        Feedback zu sammeln und Testergebnisse zu präsentieren.
+Diese Interaktionen halfen sicherzustellen, dass die Software den Kundenerwartungen entspricht.
+
+56-Können Sie uns etwas über die beiden Projektbereiche erzählen, an denen Sie arbeiten?
+Persönliche Antwort:
+#1-In meinem derzeitigen Projekt zur Bibliotheksverwaltung war eine Anwendung,
+    die eine Vielzahl von Funktionalitäten bietet, um die Arbeit von Bibliothekaren zu erleichtern
+    und die Erfahrung der Bibliotheksmitglieder zu verbessern. Zu den wichtigsten Funktionen gehören:
+Buchausleihe, Materialsuche, Raumreservierungen, Berichterstellung, Zeiterfassung:
+Darüber hinaus habe ich mich darauf konzentriert, diese Funktionalitäten umfassend zu testen,
+    einschließlich der Validierung von Datenbanken und der API-Tests, um sicherzustellen,
+    dass die Anwendung reibungslos und fehlerfrei funktioniert. Diese Funktionalitäten sind entscheidend
+    für die Verbesserung der Effizienz und Benutzererfahrung in Bibliotheken
+Meine Aufgaben umfassen UI-Tests mit Selenium, API-Tests mit Postman und der Rest Assured Library,
+    sowie Datenbankvalidierungstests mit JDBC und SQL Developer. Für die Testautomatisierung nutzen wir das
+    Cucumber BDD Framework in Verbindung mit dem Page Object Model (POM) Design Pattern.
+Meine Arbeit trägt dazu bei, sicherzustellen, dass die Anwendung reibungslos und fehlerfrei funktioniert
+    und die Anforderungen von Bibliotheksmitgliedern und Bibliothekaren erfüllt.
+Wir führen automatisierte Tests über Jenkins durch,
+    um eine kontinuierliche Integration und Regressionstests sicherzustellen.
+Diese breite Palette von Testaktivitäten und die Verwendung fortschrittlicher Tools
+    und Frameworks haben meine Fähigkeiten als Testingenieur erheblich erweitert und tragen dazu bei,
+    die Qualität unserer Anwendung sicherzustellen.
+
+#2-
+In meiner vorherigen Position bei Tragogo war ich mehr als 3 Monaten lang als Automationstest-Ingenieur tätig
+    und habe maßgeblich an einem Fleet Management-Projekt gearbeitet.
+Dabei ging es um die Entwicklung einer webbasierten Anwendung für das Logistikmanagement,
+    einschließlich Lieferverfolgung, Fahrzeugvermietung und -austausch sowie Versicherungs- und Registrierungsverwaltung.
+Ich habe umfangreiche Erfahrung in manuellen und automatisierten Testverfahren,
+    insbesondere im Page Object Model (POM) Design Pattern und dem Cucumber BDD Framework.
+Meine Verantwortlichkeiten umfassten die Erstellung und die Wartung des Frameworks,
+    das Management von Regressionstests und Smoke-Tests sowie die Durchführung von Automatisierungstests in den Sprints.
+Unsere Testautomatisierung erfolgte über Jenkins, einschließlich Smoke- und Regressionstests.
+Diese Erfahrungen haben meine Testautomatisierungsfähigkeiten erheblich erweitert
+    und meine Teamarbeit und Zusammenarbeit im Rahmen eines agilen Teams gestärkt,
+        das Qualität und Effizienz in den Vordergrund stellt.
+
+57-Wie haben Sie den Test durchgeführt?
+In meiner Rolle als SDET habe ich den Test auf verschiedene Weisen durchgeführt,
+    um sicherzustellen, dass die Software den Qualitätsstandards entspricht.
+Hier sind einige der Methoden und Ansätze, die ich verwendet habe:
+	#Manuelles Testen: Ich habe manuelle Testverfahren durchgeführt, um sicherzustellen,
+	    dass die Benutzeroberfläche und die Funktionalitäten der Software korrekt funktionieren.
+	    Dies umfasste die Überprüfung von Benutzeroberflächen-Designs und die Durchführung von Funktionstests.
+	#Automatisiertes Testen: Ich habe automatisierte Testskripte erstellt und verwendet,
+	    um wiederholbare Testfälle durchzuführen. Dies war besonders hilfreich für Regressionstests,
+	    bei denen wir sicherstellen wollten, dass neue Änderungen keine bestehenden Funktionen beeinträchtigen.
+	#Dokumentation: Während des gesamten Testprozesses habe ich Testdokumentation erstellt,
+	    um Testpläne, Testfälle und Testergebnisse zu verfolgen und zu kommunizieren.
+	#Zusammenarbeit mit Entwicklern: Ich habe eng mit den Entwicklern zusammengearbeitet,
+	    um Fehler zu identifizieren, zu priorisieren und zu beheben.
+	    Dies half dabei, Probleme frühzeitig zu lösen und die Entwicklung und Tests nahtlos zu integrieren.
+Diese verschiedenen Testansätze ermöglichten es uns, sicherzustellen,
+    dass die Software qualitativ hochwertig, leistungsstark und benutzerfreundlich ist.
+
+
+58-Warum ist Api in letzter Zeit immer beliebter geworden?
+APIs sind heute populärer, da die Digitalisierung und Vernetzung von Unternehmen
+    und Technologien die Integration und Kommunikation zwischen Systemen und Diensten entscheidend macht.
+Cloud-Computing, mobile Anwendungen, IoT und E-Commerce sind auf APIs angewiesen,
+    um nahtlose Verbindungen zu ermöglichen.
+Entwicklerfreundlichkeit und die Schaffung neuer Geschäftsmöglichkeiten tragen ebenfalls zur Beliebtheit von APIs bei.
+In der Finanzbranche fördert Open Banking den Einsatz von APIs für den sicheren Datenaustausch.
+APIs spielen eine zentrale Rolle in der Vernetzung und Innovation in der heutigen Welt.
+
+59-Welche Methoden verwenden Sie in der API?
+	GET: Mit dieser Methode werden Daten von einem Server abgerufen.
+	    Zum Beispiel kann eine GET-Anfrage verwendet werden,
+	        um Informationen von einer Webseite oder einem API-Endpunkt abzurufen.
+	POST: POST wird verwendet, um Daten an einen Server zu senden,
+	    um eine neue Ressource zu erstellen oder vorhandene Daten zu aktualisieren.
+	    Zum Beispiel wird dies häufig verwendet, wenn Sie ein Formular auf einer Webseite absenden.
+	PUT: PUT wird verwendet, um eine vorhandene Ressource zu aktualisieren
+	    oder eine neue Ressource an einem bestimmten Ort zu erstellen.
+	    Im Gegensatz zu POST sollte PUT idempotent sein,
+	        dh mehrere aufeinanderfolgende Anfragen sollten das gleiche Ergebnis haben.
+	PATCH: PATCH wird verwendet, um Teile einer vorhandenen Ressource zu aktualisieren,
+	    anstatt die gesamte Ressource zu ersetzen. Dies ist nützlich,
+	        wenn Sie nur bestimmte Informationen ändern möchten,
+	            ohne den Rest der Ressource zu berühren.
+	DELETE: Diese Methode wird verwendet, um eine Ressource zu löschen.
+	    Wenn Sie beispielsweise eine Datei von einem Server löschen möchten,
+	        können Sie eine DELETE-Anfrage senden.
+
+Dies ist hilfreich für die API-Dokumentation und die Interaktion mit der API.
+Diese Methoden sind Teil des HTTP-Protokolls
+    und werden von vielen Web-APIs verwendet,
+        um Daten zwischen Clientanwendungen und Servern auszutauschen.
+Die Wahl der richtigen Methode hängt von der beabsichtigten Aktion und dem Verhalten des Servers ab.
+
+60-Wie schreiben Sie Testfälle in Api?
+Beim Schreiben von API-Testfällen folge ich einem strukturierten Ansatz.
+#Zuerst definiere ich das Ziel des Testfalls und bereite die benötigten Eingabedaten vor.
+#Dann erstelle ich eine präzise HTTP-Anfrage an die API und spezifiziere die erwarteten Ergebnisse,
+    einschließlich Statuscodes und Antwortdaten.
+#Ich dokumentiere die Schritte des Testfalls und führe ihn aus,
+    um sicherzustellen, dass die API wie erwartet funktioniert.
+    Bei Fehlern dokumentiere ich diese detailliert.
+#Mein Ziel ist es, eine umfassende Testabdeckung sicherzustellen und die Qualität der API zu gewährleisten.
+
+61-Gibt es eine Sicherheitslücke in API?
+Ja, und hier sind einige Beispiele für API-Sicherheitslücken:
+	#Unzureichende Authentifizierung und Autorisierung: Wenn APIs nicht ordnungsgemäß authentifizieren und autorisieren,
+	    können unbefugte Benutzer oder Anwendungen auf Ressourcen zugreifen.
+	#SQL-Injektion: Mangelnde Validierung von Benutzereingaben kann dazu führen,
+	    dass Angreifer Datenbanken manipulieren oder abrufen.
+	#Cross-Site Scripting (XSS): APIs, die Daten in Webanwendungen einbetten, sind anfällig für XSS-Angriffe,
+	    wenn sie nicht auf schädlichen Code in den Daten prüfen.
+	#Datenlecks: Fehlkonfigurationen oder mangelnder Datenschutz können dazu führen,
+	    dass APIs versehentlich sensible Daten offenlegen.
+	#Fehlende Verschlüsselung: Fehlende Verschlüsselung bei der Datenübertragung ermöglicht es Angreifern,
+	    den Datenverkehr abzufangen und zu lesen.
+	#Brute-Force-Angriffe: APIs, die Authentifizierung erfordern, können gegen Brute-Force-Angriffe anfällig sein,
+	    wenn sie nicht gegen wiederholte Anmeldeversuche abgesichert sind.
+	#Fehlende Validierung von Benutzereingaben: APIs sollten Benutzereingaben sorgfältig validieren,
+	    um schädliche Daten zu verhindern.
+	#Fehlende Sicherheitsheader: Das Fehlen von Sicherheitsheadern wie CORS oder CSP kann die Sicherheit beeinträchtigen.
+
+62-Was ist der Unterschied zwischen Webserver und Api?
+Ein Webserver ist eine Software oder ein Hardwaregerät,
+    das HTTP-Anfragen von Webbrowsern empfängt und Webseiten für die Anzeige im Browser bereitstellt.
+    Es liefert Inhalte für Endbenutzer und kommuniziert in der Regel über das HTTP-Protokoll.
+Eine API (Application Programming Interface) ist eine Schnittstelle,
+    die es Anwendungen ermöglicht, miteinander zu kommunizieren und Informationen oder Dienste auszutauschen.
+    APIs können verschiedene Kommunikationsprotokolle verwenden
+        und sind in erster Linie für Entwickler gedacht,
+            um Daten oder Dienste von Anwendungen oder Diensten abzurufen oder mit ihnen zu interagieren.
+In der Webentwicklung arbeiten Webserver und APIs oft zusammen,
+    um dynamische Webseiten und Anwendungen zu erstellen,
+        die auf Daten und Dienste von verschiedenen Quellen zugreifen.
+    Während ein Webserver Inhalte für Endbenutzer bereitstellt,
+        ermöglicht eine API Entwicklern den Zugriff auf Daten und Funktionen
+            für die Erstellung von Anwendungen.
+
+63-Welche Programmiersprachen werden für das Testen und Entwickeln von APIs verwendet?
+Für das Testen und Entwickeln von APIs werden verschiedene Programmiersprachen eingesetzt,
+    darunter Python, JavaScript, Java, C#, Ruby, Go, Kotlin und PHP.
+Die Wahl der Programmiersprache hängt von den Projekterfordernissen und den Präferenzen des Entwicklungsteams ab.
+Jede Sprache bietet Frameworks und Bibliotheken, die die Arbeit mit APIs erleichtern.
+
+64-Was tun Sie, wenn eine User Story eingeht?
+Kurze Antwort:
+Wenn eine User Story eintrifft, analysiere ich die Anforderungen,
+    erstelle detaillierte Testfälle und automatisiere diese.
+Ich überprüfe den Code, führe verschiedene Tests durch (z.B. Integration, Regression, Akzeptanz),
+    und arbeite eng mit Entwicklern und DevOps-Teams zusammen,
+        um sicherzustellen, dass die Software den Qualitätsstandards entspricht.
+Ich dokumentiere Tests, finde und berichte über Fehler
+    und arbeite kontinuierlich daran, die Anwendungsqualität zu verbessern.
+
+Detaillierte Antwort: Erste drei schritte kann man ausführlich erklären .
+	1-Anforderungsanalyse:
+	Lesen Sie die User Story und verstehen Sie die darin beschriebenen Anforderungen und Funktionen genau.
+	Klären Sie Unklarheiten oder Fragen mit dem Produktteam oder dem Product Owner.
+	2-Testfallerstellung:
+	Entwickeln Sie detaillierte Testfälle, die die Funktionalität der User Story abdecken.
+	Berücksichtigen Sie verschiedene Testarten wie Funktions-, Integrations-, Akzeptanz- und Regressionstests.
+	3-Testautomatisierung:
+	Schreiben Sie automatisierte Testskripte, um die Testfälle auszuführen
+	    und sicherzustellen, dass die Funktionalität ordnungsgemäß funktioniert.
+	Stellen Sie sicher, dass Ihre Testautomatisierungssuite aktuell und wartbar ist.
+	Codeüberprüfung:
+	Überprüfen Sie den von den Entwicklern bereitgestellten Code,
+	    um sicherzustellen, dass er den Qualitätsstandards entspricht und die Anforderungen erfüllt.
+	Integrationstests:
+	Führen Sie Integrationstests durch, um sicherzustellen,
+	    dass die neue Funktionalität gut mit vorhandenen Komponenten und Systemen interagiert.
+	Dokumentation:
+	Halten Sie Ihre Testfälle und Testdaten aktuell und gut dokumentiert.
+	Dokumentieren Sie alle gefundenen Fehler und kommunizieren Sie sie an das Entwicklungsteam.
+	Regressionstests:
+	Führen Sie Regressionstests durch, um sicherzustellen,
+	    dass die neuen Änderungen keine unerwarteten Nebenwirkungen auf bestehende Funktionalitäten haben.
+	Akzeptanztests:
+	Stellen Sie sicher, dass die Funktionalität von den Stakeholdern
+	    oder dem Product Owner akzeptiert wird, indem Sie Akzeptanztests durchführen.
+	Continuous Integration/Continuous Deployment (CI/CD):
+	Arbeiten Sie eng mit den DevOps-Teams zusammen,
+	    um sicherzustellen, dass die automatisierten Tests in den CI/CD-Pipelines integriert sind.
+	Performance- und Lasttests (falls erforderlich):
+	Führen Sie Leistungs- und Lasttests durch,
+	    um sicherzustellen, dass die Anwendung unter erwarteter Belastung effizient funktioniert.
+	Sicherheitstests (falls erforderlich):
+	Überprüfen Sie die Sicherheit der Anwendung,
+	    insbesondere wenn sensible Daten oder Transaktionen involviert sind.
+	Dokumentation und Berichterstattung:
+	Halten Sie alle Testergebnisse und Berichte für die Nachverfolgung und das Auditieren bereit.
+	Feedback und Verbesserung:
+	Geben Sie kontinuierliches Feedback an das Entwicklungsteam,
+	    um die Qualität und Zuverlässigkeit der Anwendung zu verbessern.
+Ihre Aufgabe als SDET besteht darin, sicherzustellen,
+    dass die Softwarequalität gewährleistet ist, indem Sie umfassende Tests durchführen
+        und eng mit den Entwicklungs- und DevOps-Teams zusammenarbeiten.
+
+65-Was bedeutet Qualität aus der Sicht des SDET?
+Die Qualität bedeutet die Gewährleistung,
+    dass eine Software funktional, leistungsfähig, sicher und benutzerfreundlich ist,
+        während gleichzeitig erkannte Fehler minimiert werden.
+Ein SDET ist dafür verantwortlich, Tests durchzuführen, Leistung und Sicherheit zu überprüfen,
+    und sicherzustellen, dass die Software den Anforderungen entspricht.
+Kontinuierliche Verbesserung und Testabdeckung sind ebenfalls wichtige Aspekte,
+    um die Gesamtqualität der Software zu gewährleisten.
+
+66-Wie schreibt man in Gherkin, wenn man einige Texte hat?
+#Zuerst erstelle ich ein neues Feature-Datei im Gherkin-Format.
+#In dieser Datei definiere ich, welche Funktion
+    oder welches Feature ich testen möchte.
+#Dann erstelle ich die Testfälle mit den zugehörigen Schritten.
+#Dabei mache ich Gebrauch von den deutschen Schlüsselwörtern für die Schritte,
+    um die Testfälle detailliert zu beschreiben.
+
+   Die Schritte folgen einem klaren Muster:
+  Funktionalität: [Die zu testende Funktionalität]
+
+    Szenario: [Eine kurze Beschreibung des Szenarios]
+      Angenommen, [Der Ausgangszustand oder die Voraussetzungen]
+      Wenn [Die Aktion, die durchgeführt wird]
+      Dann [Das erwartete Ergebnis oder Verhalten]
+
+67-Wie machen Sie den Testentwurf?
+-Ich habe die Frage nicht ganz verstanden.
+Deshalb gebe ich Ihnen zwei verschiedene Antworten.
+Antwort #1:Als Software Development Engineer in Test (SDET) erstelle ich den Testentwurf,
+    indem ich die Anforderungen verstehe, klare Testziele setze und den Umfang der Tests definiere.
+    Ich entwickle detaillierte Testfälle und identifiziere die benötigten Testdaten.
+    Eine effektive Teststrategie wird entwickelt, um die Art der Tests und die entsprechenden Werkzeuge festzulegen.
+    Ressourcen werden identifiziert, ein Zeitplan erstellt und die Testdurchführung geplant.
+    Die Testergebnisse werden erfasst und dokumentiert, Risiken bewertet und Maßnahmen zur Risikominimierung ergriffen.
+    Der Testentwurf wird überprüft, genehmigt und die Testumgebung vorbereitet,
+       um sicherzustellen, dass die Tests effizient und erfolgreich durchgeführt werden können.
+    Dieser Prozess gewährleistet die Qualität der Software oder des Systems
+
+Antwort #2:
+Ich benutze POM (Das Page Object Model )Pattern.
+POM ist ein Entwurfsmuster in der Testautomatisierung von Benutzeroberflächen,
+    das dazu dient, Testcode zu strukturieren, wartbarer zu machen
+        und die Wiederverwendbarkeit zu fördern.
+Es trennt die Interaktionen mit der Benutzeroberfläche von den eigentlichen Tests,
+    indem es separate "Page-Klassen" für jede Seite oder Ansicht in einer Anwendung verwendet.
+Diese Page-Klassen enthalten Elemente auf der Seite sowie Methoden,
+    um auf diese Elemente zuzugreifen und mit ihnen zu interagieren.
+Die Verwendung des POM-Musters verbessert die Lesbarkeit, Wartbarkeit
+    und Effizienz von UI-Tests und erleichtert die Anpassung an Änderungen in der Benutzeroberfläche.
+
+
+68-Was ist der Unterschied zwischen einer Klasse und einer Schnittstelle?
+# Klasse:
+Eine Klasse ist ein Bauplan für Objekte und definiert Struktur, Zustand und Verhalten.
+Klassen können Attribute (Felder) und Methoden enthalten.
+Objekte werden von Klassen erstellt und können vererbt werden.
+Klassen können sowohl abstrakte als auch konkrete Methoden haben.
+Klassen werden verwendet, um Objekte zu implementieren und Code zu strukturieren.
+# Schnittstelle:
+Eine Schnittstelle ist eine Vereinbarung, die definiert, welche Methoden eine Klasse implementieren muss.
+Schnittstellen enthalten nur Methodensignaturen, keine Implementierungsdetails.
+Klassen können mehrere Schnittstellen implementieren.
+Schnittstellen ermöglichen die Vererbung von abstrakten Klassen und schaffen Vertragsbindungen.
+Klassen können von einer Basisklasse erben und Schnittstellen implementieren.
+Diese Unterschiede verdeutlichen die verschiedenen Zwecke und Verwendungen von Klassen
+    und Schnittstellen in der objektorientierten Programmierung.
