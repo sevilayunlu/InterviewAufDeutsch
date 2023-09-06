@@ -217,6 +217,10 @@ Ich verwende Tools wie Jira-Xray, um meine manuellen Tests sowie Testmanagement-
 
 85. Was ist Linux und wofür wird es verwendet?
 
+Linux ist Open Source, das bedeutet, dass sein Quellcode der Öffentlichkeit zugänglich ist und für Testzwecke angepasst werden kann.
+Es bietet eine leistungsstarke Befehlszeilenumgebung für die Testautomatisierung, funktioniert in verschiedenen Umgebungen und ist mit beliebten Testwerkzeugen wie Selenium und JUnit kompatibel.
+Es ist eine stabile Plattform für die Entwicklung und Durchführung von Tests.
+
 Linux ist ein Betriebssystem, das wie Windows oder macOS auf Computern läuft.
 Der Unterschied besteht darin, dass Linux eine quelloffene Software ist, was bedeutet, dass jeder den Quellcode sehen, ändern und weitergeben kann.
 Dies hat zu einer Vielzahl von Linux-Distributionen geführt, darunter bekannte Namen wie Ubuntu, Fedora und Debian.
