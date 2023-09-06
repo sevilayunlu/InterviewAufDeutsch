@@ -1,0 +1,142 @@
+86. Was sind Internetprotokolle? Kannst du ein oder zwei davon erklären? (Ich habe TCP/IP, HTTP und FTP erklärt)
+
+ Diese Protokolle bilden die Grundlage für die Kommunikation im Internet und sind für unsere tägliche Online-Interaktion unerlässlich.
+ 1.HTTP (Hypertext Transfer Protocol): HTTP ist das Protokoll, das für das Abrufen von Webseiten im Webbrowser verwendet wird.
+ 2.HTTPS (Hypertext Transfer Protocol Secure): HTTPS ist die sichere Version von HTTP. Es wird verwendet,
+ um Daten zu verschlüsseln und sicher zu übertragen. Viele Online-Shopping-Websites und Banken verwenden HTTPS
+ 3.FTP (File Transfer Protocol): FTP wird verwendet, um Dateien zwischen Server und Client zu übertragen,
+ insbesondere für große Dateien. Zum Beispiel wird FTP verwendet, um Dateien auf eine Webseite hochzuladen oder herunterzuladen.
+ 4. TCP/IP (Transmission Control Protocol / Internet Protocol): TCP/IP ist eine Protokollfamilie, die die Datenübertragung uCI/CD,
+ Kunden durch die Einführung von Automatisierung in die Phasen der App-Entwicklung regelmäßig Apps bereitzustellen.
+
+87.Was ist CI/CD?   88. Wie funktioniert CI/CD?  (----die Antwort von Mehmet)  (für mehr ErklärungDay 01 CI-CD NOTES)
+
+ Was ist CI? (Continuous Integration)
+     Neue Code-Änderungen an einer App werden regelmäßig erstellt und
+     getestet (Einheits-/Integrationstests). Dies ist eine Lösung für das Problem, zu viele gleichzeitig entwickelte Zweige
+     einer App zu haben, die miteinander in Konflikt geraten könnten.
+
+ Was ist CD? (Continuous Delivery)
+     •Continuous Delivery ist ein automatisierter Build und die Ausführung von Einheits- und Integrationstests,
+      die Ausführung von Codeanalyse, Funktionstests und die Bereitstellung auf jeder unterstützten Plattform zu jeder Zeit.
+     •Jedes Mal, wenn ein Build oder eine Gruppe von Codes die Tests besteht, wird er automatisch
+      in eine Staging-Umgebung bereitgestellt.
+     •Der Zweck der kontinuierlichen Bereitstellung besteht darin, sicherzustellen, dass es minimalen Aufwand erfordert,
+      neuen Code bereitzustellen. Es ist immer noch menschliche Intervention erforderlich, um die Bereitstellung auszulösen.
+
+ Was ist CD? (Continuous Deployment)
+  Bezieht sich auf die automatische Veröffentlichung der Änderungen eines Entwicklers
+  aus dem Repository in die Produktion, wo sie von Kunden verwendet werden können. Je nach Fall hängt die Bedeutung der Begriffe davon ab,
+  wie viel Automatisierung in die CI/CD-Pipeline integriert wurde.
+
+89. Welche Tools haben Sie für CI/CD verwendet? (----die Antwort von Mehmet)
+  Jenkins / GitLab / Github Actions / CircleCI / TravisCI / Bamboo
+
+90. Was wissen Sie über Jenkins? Wie haben Sie es verwendet? (----die Antwort von Mehmet)
+Jenkins ist ein eigenständiger, Open-Source-Automatisierungsserver, der verwendet werden kann, um alle Arten von Aufgaben
+ im Zusammenhang mit der Erstellung, Test und Bereitstellung oder Bereitstellung von Software zu automatisieren.
+ Es ist OPEN SOURCE und KOSTENLOS.
+
+Unsere Rolle als Tester? (Unabhängig vom CI/CD-Prozess)
+ Wir sollten täglich einen Smoke-Test ausführen, um zu überprüfen, ob die Anwendung läuft.
+ OPTION 1 —> Sie können es lokal ausführen, um es jedes Mal zu sehen -
+ OPTION 2 —> Erstellen Sie einen Jenkins Freestyle-Job, indem Sie Cron-Ausdrücke verwenden
+
+91. Was sind die Vorteile von CI/CD?
+  Schnellere Bereitstellung: CI/CD ermöglicht die schnelle Bereitstellung von Softwareupdates,wodurch neue Funktionen und
+                             Fehlerkorrekturen schnell in die Produktionsumgebung gelangen
+  Höhere Qualität: Fehler werden frühzeitig erkannt.
+  Konsistente Umgebungen: CI/CD gewährleistet, dass alle Entwicklungs-, Test- und Produktionsumgebungen konsistent sind, was Probleme aufgrund von Umgebungsunterschieden minimiert.
+  -------- Weniger menschliche Fehler, Bessere Zusammenarbeit, Schnelles Feedback
+
+92. Haben Sie Testautomatisierungsberichte und Dokumentationen geschrieben? Was haben Sie verwendet? Welche Schritte haben Sie befolgt?
+    Ja, ich habe Testautomatisierungsberichte und -dokumentationen geschrieben.
+    Dies ist ein wichtiger Schritt, um die Testautomatisierungsprozesse und -ergebnisse zu dokumentieren und
+    die Qualität und Zuverlässigkeit des Projekts zu verbessern. Im Folgenden werde ich die grundlegenden Schritte erläutern,
+    die ich bei der Durchführung dieser Aufgabe befolgt habe:
+
+ Schritt 1: Anforderungen verstehen Als ersten Schritt muss ich die Projektanforderungen und Testszenarien verstehen,
+            bevor ich mit dem Schreiben der Testautomatisierungsberichte beginne. Dies ist entscheidend, um festzulegen,
+           welche Tests automatisiert werden sollen und welche Art von Ergebnissen wir melden müssen.
+ Schritt 2: Automatisierung der Testfälle Anschließend wähle ich die Testfälle aus, die automatisiert werden sollen.
+            in der Regel werden die kritischsten und wiederholtesten Szenarien automatisiert.
+            Ich passe diese Szenarien an den Softwareentwicklungsprozess an und erstelle geeignete Testskripte für die Automatisierung.
+ Schritt 3: Entwicklung von Testautomatisierungscodes Ich entwickle den für die Testautomatisierung erforderlichen Code,
+            einschließlich der Testskripte, Funktionen und Datenerstellungsvorgänge. Ich füge auch Fehlerbehandlungs- und Berichtsfunktionen hinzu.
+ Schritt 4: Durchführung von Tests und Speichern der Ergebnisse Nachdem ich den Automatisierungscode entwickelt habe,
+            führe ich die Tests durch und speichere die Ergebnisse. Ich erhalte detaillierte Ergebnisse für erfolgreiche und fehlgeschlagene Tests.
+            Diese Ergebnisse dienen als Grundlage für die Berichte.
+ Schritt 5: Erstellung von Berichten Zum Schluss erstelle ich Testautomatisierungsberichte auf Grundlage der gespeicherten Ergebnisse.
+            Diese Berichte enthalten Informationen zum Status der Tests, zu Fehlerdetails, zu bestandenen und fehlgeschlagenen Szenarien und
+            anderen wichtigen Informationen. Die Berichte werden in der Regel als Textdokumente, Tabellen oder Grafiken erstellt.
+
+
+93-Wenn die Testfall-Dokumentation nicht erklärend verfasst wurde, was würden Sie tun?
+
+1. Kommunikation herstellen: Zuerst nehme ich Kontakt zum Entwicklungsteam auf oder frage
+bei Bedarf die Business-Analysten nach zusätzlichen Informationen.
+Ich bitte um klärende Informationen, um fehlende oder unklare Details zu klären.
+2. Eigene Recherche durchführen: Wenn ich keinen Zugriff auf zusätzliche Informationen habe,
+erstelle ich einen möglichst detaillierten Testfall basierend auf den mir zur Verfügung stehenden Informationen.
+Dabei betone ich insbesondere den Zweck des Tests, die Schritte und die erwarteten Ergebnisse.
+3. Testfall ausführen: Ich beginne damit, den von mir erstellten Testfall auszuführen.
+Dies hilft mir, die zu testende Funktionalität oder das Merkmal zu verstehen und mögliche Fehler zu identifizieren.
+Wie gehen Sie vor, wenn Sie einen Fehler finden?
+4. Vorgehen bei Fehlermeldung: Wenn ich einen Fehler finde, folge ich diesen Schritten:
+   •Fehlerdetails erfassen:  Ich notiere, was der Fehler ist und wann er aufgetreten ist.
+   •Fehlerbericht erstellen: Ich erstelle einen offiziellen Fehlerbericht mit den Fehlerdetails.
+   •Fehlerverfolgungssystem: Ich verwende ein Fehlerverfolgungssystem (z. B. JIRA oder ein ähnliches Tool),
+                             um den Fehlerbericht zu verfolgen.
+   •Fehlerbericht teilen:    Ich teile den Fehlerbericht mit dem Entwicklungsteam und liefere bei Bedarf zusätzliche Informationen.
+   •Wiederholungstest:       Ich führe einen erneuten Test durch, um zu überprüfen, ob der Fehler behoben wurde, und schließe den Bericht,
+                             sobald der Fehler behoben ist.
+5. Dokumentation und Feedback: Ich dokumentiere während des Tests gefundene Fehler und Lösungen.
+Außerdem aktualisiere ich den Testfall, wenn dieser unvollständig oder unklar ist.
+Während dieses Prozesses biete ich kontinuierliches Feedback an und arbeite daran, Unklarheiten zu reduzieren.
+
+94. Unter welchen Umständen berücksichtigen Sie die Interessen des Unternehmens?
+1.Qualität und Zuverlässigkeit verbessern: Ich arbeite daran, die Qualität der Softwareprodukte zu verbessern und
+                                             den Kunden zuverlässige Produkte anzubieten, indem ich Testprozesse optimiere.
+2.Kosten senken: Ich reduziere Kosten durch effiziente Testautomatisierung und Prozessoptimierung.
+3.Zeit und Ressourcen effizient nutzen: Ich optimiere Testprozesse, um sicherzustellen,
+                                          dass Zeit und Ressourcen effizient eingesetzt werden.
+4.Schnelles und genaues Feedback: Ich finde und behebe Fehler schnell, was die Entwicklung beschleunigt und die Kosten senkt.
+5.Auswahl geeigneter Technologien und Tools: Ich wähle die besten Testwerkzeuge und Technologien aus,
+                                               um die Unternehmensziele optimal zu unterstützen.
+6.Zusammenarbeit und Kommunikation: Ich arbeite eng mit anderen Teams zusammen und kommuniziere,
+                                    um die Geschäftsanforderungen besser zu verstehen und entsprechende Teststrategien zu entwickeln."
+
+100. Können Sie den Unterschied zwischen einer Klasse und einer Schnittstelle erklären?
+Klasse (class):
+•	Eine Klasse ist eine Bauplan oder Vorlage für die Erstellung von Objekten.
+•	Sie kann Felder (Variablen) und Methoden (Funktionen) enthalten.
+•	Klassen können Objekte instanziieren, dh sie können tatsächliche Datenstrukturen erstellen.
+•	Klassen können konkrete Implementierungen für ihre Methoden bereitstellen.
+•	Ein Objekt einer Klasse kann nur von einer einzigen Klasse abgeleitet sein (Single Inheritance).
+
+Schnittstelle (interface):
+•	Eine Schnittstelle ist eine Sammlung von abstrakten Methodensignaturen, die von Klassen implementiert werden müssen.
+•	Sie definiert, welche Methoden eine Klasse implementieren muss, aber nicht deren konkrete Implementierung.
+•	Klassen können mehrere Schnittstellen implementieren (Multiple Interface Implementation).
+•	Schnittstellen ermöglichen die Definition von Verträgen, die Klassen einhalten müssen.
+•	Schnittstellen werden verwendet, um die Interoperabilität zwischen verschiedenen Klassen sicherzustellen.
+
+102-Wie verwenden Sie Selenium, Cucumber, TestNG und JUnit?
+1.Selenium: Ich verwende es für die Automatisierung von Tests für webbasierte Anwendungen.
+            Es öffnet Webseiten, interagiert mit ihnen und bewertet die Ergebnisse.
+2.Cucumber: Ich nutze es, um Testfälle verständlicher zu gestalten und in automatisierte Tests umzuwandeln,
+            indem ich den BDD-Ansatz (Behavior-Driven Development) verwende.
+3.TestNG und JUnit: Ich verwende sie zur Organisation, Verwaltung und Berichterstattung von Testfällen.
+                    Ich verfolge Testergebnisse und erstelle Berichte.
+
+
+----------------------------------
+94.Frage = 18,20
+95. =80
+96 = 77
+97 =78
+98= 74
+99-75
+101=nicht klar
+Zwischen 85-94  = zwischen 112-124
+-----------------------------------
