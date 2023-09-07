@@ -1,0 +1,326 @@
+69. Was ist der Unterschied zwischen einer Klasse und einem Interface?
+
+Interface:
+    # Ein Interface (Eine Schnittstelle) ist eine Vorlage (Blueprint) einer Klasse.
+    # Es handelt sich um eine Vorlage und wird mit dem Schlüsselwort "interface" deklariert.
+    # Es kann abstrakte Methoden, Standardmethoden, statische Methoden und öffentliche finale statische Variablen enthalten.
+    # Wenn wir ein Interface verwenden möchten, verwenden wir das Schlüsselwort "implementieren" (implement).
+    # Ein Interface dient dazu, Abstraktion zu erreichen, und kann nicht instanziiert werden.
+      Das bedeutet, dass wir keine Objekte aus einem Interface erstellen können.
+
+Klasse:
+
+    # Ein Klasse ist wie eine Vorlage, die Ihnen hilft, viele Objekte zu erstellen.
+    # Wir deklarieren eine Klasse mit dem Wort "class".
+    # Eine Klasse bestimmt, wie sich ein Objekt verhalten wird und was es enthalten wird.
+    # Eine Klasse ist eine Sammlung ähnlicher Objekte.
+    # Sie ist eine Vorlage, und es wird kein Speicherplatz für eine Klasse alloziert.
+    # Eine Klasse kann ohne Objekte existieren.
+
+
+70. Wie verwendest du BDD (Behavior-Driven Development)?
+
+Unser agiles Team hat den Ansatz des Behavior Driven Development (BDD) in unseren Testprozessen mit Hilfe des Cucumber-Tools angewendet.
+Wir verwenden Cucumber als Tool, um unsere automatisierten Akzeptanztests in einem BDD-Stil durchzuführen.
+In unserem Hauptfeature führen wir Klartext aus, um funktionale Beschreibungen in einer Sprache namens Gherkin für unsere automatisierten Tests auszuführen.
+
+Hier ist ein Beispiel:
+
+Feature: Update password
+Scenario: Admin user can update user password
+Given I am in the HR system with an Admin account
+When I update password of another “user”
+Then I receive a message for updating password successfully
+And user’s password is updated to the new password
+
+Es gibt viele Vorteile:
+    # Cucumber ein automatisiertes Akzeptanztestwerkzeug, das Tests in einem auf Verhaltensentwicklung (BDD) basierenden Stil ausführt.
+    # Brücken zwischen den technischen und nicht-technischen Mitgliedern eines Softwareteams aufbauen.
+    # Verwendet von allen Teammitgliedern, einschließlich Entwicklern, Testern, Business-Analysten usw.
+    # Ermöglicht die direkte Interaktion mit dem Code der Entwickler, jedoch in einer Sprache, die von Geschäftsinteressenten verstanden werden kann.
+    # Das Cucumber-Tool trägt dazu bei, die Kommunikation zwischen technischen und nicht-technischen Mitgliedern in einem Projekt zu verbessern.
+
+71. Wie verwendest du Jira X-ray?
+
+Ich verwende Jira innerhalb meines Unternehmens, um Entwicklungstickets zu verfolgen und meine Testfälle mit Jira X-ray zu verwalten.
+Unsere Jira-Einrichtung folgt einem strukturierten Arbeitsablauf mit mehreren Spalten auf unserem Board:
+    # Zu erledigen: Hier nehmen die Entwickler ihre zugewiesenen Entwicklungstickets auf.
+    # In Arbeit: Die Entwickler beginnen mit der Arbeit an ihren jeweiligen Tickets.
+    # Überprüfung: Tickets durchlaufen einen Überprüfungsprozess, bei dem einer der Entwickler eine Überprüfung durchführt und die Änderungen zusammenführt.
+    # QA-Umgebung: Nach dem Zusammenführen wird das Ticket in die QA-Umgebung verschoben, um anzuzeigen, dass es bereit für Tests ist.
+    # QA: Hier komme ich als QA-Tester ins Spiel. Ich nehme das Ticket, führe Tests durch, und wenn es besteht, verschiebe ich es in die Spalte 'Erledigt'.
+      Wenn weitere Arbeit erforderlich ist, haben wir eine Spalte 'QA fehlgeschlagen'.
+    # QA fehlgeschlagen: In Fällen, in denen eine Überarbeitung erforderlich ist, lege ich das Ticket in diese Spalte.
+      Der Entwickler holt es dann ab, und es kehrt zur Spalte 'In Arbeit' zurück, um überarbeitet zu werden.
+In Jira X-ray verwalte ich meine Tests und Ausführungen und nutze es als umfassendes Tool, um alle meine Testaktivitäten zu überwachen.
+Darüber hinaus führe ich ein separates Kanban-Board ausschließlich für QA-Testtickets, um sie bequem zu verfolgen und zu verwalten.
+
+72. Wie würdest du dich in einer Gruppe beschreiben?
+
+    # Ich würde mich selbst als kommunikativ, praktisch und flexibel beschreiben.
+    # Wenn wir in einer Gruppe arbeiten, versuche ich aktiv mitzumachen.
+    # Ich möge teilen meine Ideen, gebe freundliche Tipps und höre auch was andere Leute sagen.
+    # Zusammenarbeit ist mir wichtig, weil wir alle unterschiedliche Fähigkeiten und Ideen haben.
+      Wenn wir zusammenarbeiten, können wir bessere Lösungen finden.
+
+73. Wie setzen Sie die von Ihnen gelernten Tools ein?
+
+    # Zuerst definiere ich, warum Automatisierung notwendig ist und in welchen Prozessen sie eingesetzt werden soll.
+    # Dann wähle ich die geeigneten Tools und Technologien für mein Projekt aus.
+    # Ich plane und entwerfe Test-Szenarien und schreibe sie in einer verständlichen Sprache.
+    # Während der Codierungsphase verbinde ich die Szenarien mit dem Automatisierungstool.
+    # Ich bereite die benötigten Testdaten und Umgebungen vor.
+    # Ich führe die Szenarien aus und behebe Fehler, wenn sie auftreten
+    # Ich mache Berichte über die Ergebnisse, um erfolgreiche und erfolglose Szenarien zu sehen.
+    # Ich aktualisiere und repariere die Tests regelmäßig, um die Automatisierung am Laufen zu halten.
+
+
+74. Was sind die Vorteile von Cucumber?
+
+    # Es ist hilfreich für Stakeholders, die den Code nicht einfach lesen können.
+    # Das Cucumber-Test-Tool konzentriert sich auf Endbenutzererfahrung.
+    # Der Stil des Schreibens ermöglicht eine leichter Wiederverwendung von Code in den Tests.
+    # Schnelle und einfache Einrichtung (setup) und Ausführung (execution).
+    # Das Cucumber -Testwerkzeug ist ein effizientes Tool zum Testen.
+
+75. Was ist der Unterschied zwischen Cucumber und Gherkin?
+
+Gherkin ist eine von Cucumber verwendete Sprache und Schreibweise,
+um Akzeptanztests zu definieren. Gherkin hat eine einfache Struktur,
+die von Menschen leicht verstanden werden kann, und dient dazu, Testfälle und Akzeptanzkriterien mithilfe spezieller Schlüsselwörter
+und Strukturen zu beschreiben. Zum Beispiel können Sie Testfälle in der Gherkin-Sprache mit Schlüsselwörtern wie "Gegeben," "Wenn," und "Dann" verfassen.
+Gherkin-Dateien haben normalerweise die Erweiterung ".feature.
+
+Cucumber ist ein Werkzeug, das dabei hilft, Softwaretests zu automatisieren.
+Es verwendet eine spezielle Sprache, um Test-Szenarien zu verstehen und auszuführen.
+Dadurch wird die Zusammenarbeit zwischen Softwareentwicklern und Testteams erleichtert.
+
+
+76. Was ist Selenium und wo wird es verwendet?
+
+    # Selenium ist ein Open-Source-Automatisierungstestwerkzeug, das ausschließlich für webbasierte Anwendungen verwendet wird.
+    # Es handelt sich um eine Sammlung von JAR-Dateien (Bibliotheken : Klassen und Methoden), die es uns ermöglichen, Browser zu automatisieren.
+    # Es ermöglicht uns, den Browser mithilfe von Code zu steuern(control).
+
+Selenium wird in verschiedenen Bereichen und Szenarien verwendet, darunter:
+    # Automatisierte Tests
+    # (CI/CD)Kontinuierlichen Integration und kontinuierlichen Bereitstellung
+    # Regressionstests
+    # Bildschirmaufzeichnung
+    # Web-Interaktionen
+    # Web-Scraping
+    # Leistungstests
+
+77. Wie schreibst du Code in Selenium?
+
+    Beim Schreiben von Code mit Selenium befolge ich diese Schritte:
+
+    # Zuerst starte ich den Browser, indem ich Selenium WebDriver verwende.
+    # Dann gehe ich zur Webseite, die ich testen möchte.
+    # Ich finde die speziellen Elemente auf der Seite.
+    # Ich führe Aktionen wie Klicken oder Texteingabe auf diesen Elementen aus.
+    # Ich warte darauf, dass die Seite geladen ist oder die Elemente sichtbar werden.
+    # Ich überprüfe die Ergebnisse.
+    # Wenn die Tests abgeschlossen sind, schließe ich den Browser.
+
+78. Kannst du ein Beispiel für Java-Code in Selenium geben?
+
+    import org.openqa.selenium.By;
+    import org.openqa.selenium.WebDriver;
+    import org.openqa.selenium.WebElement;
+    import org.openqa.selenium.chrome.ChromeDriver;
+
+    public class SeleniumBeispiel {
+        public static void main(String[] args) {
+
+            // Chrome WebDriver starten
+            System.setProperty("webdriver.chrome.driver", "Pfad/zum/chromedriver.exe");
+            WebDriver treiber = new ChromeDriver();
+
+            // Zur Webseite gehen
+            treiber.get("https://www.beispielwebseite.de");
+
+            // Ein Web-Element finden und darauf klicken
+            WebElement element = treiber.findElement(By.id("elementId"));
+            element.click();
+
+            // Den Browser schließen
+            treiber.quit();
+        }
+    }
+
+79. Was ist Implicit und Explicit Wait?
+
+    Selenium bietet Warte-Mechanismen, um auf das Erscheinen (appear), Verschwinden(disappear) oder Anklickbarwerden(clickable) von Elementen zu warten, bevor die Testausführung fortgesetzt wird.
+
+    Implizite Wartezeit (Implicit Wait):
+
+    # Sie ermöglicht es dem Treiber, für eine festgelegte Zeit nach dem WebElement zu suchen, bevor eine Ausnahme ausgelöst wird, wenn das Element nicht gefunden wird.
+    # Stoppt die Abfrage, sobald das Element gefunden wird.
+    # Wenn das Element nicht gefunden wird, wird nach Ablauf der angegebenen Zeit eine Ausnahme (NosuchElementException) ausgelöst.
+
+    Syntax:
+    Wir sollten die implizite Wartezeit direkt nach der Initialisierung der WebDriver-Instanz festlegen.
+
+    Ausnahmen:
+    TimeoutException , NoSuchElementException
+    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
+
+    Explizite Wartezeit (Explicit Wait)
+
+    # Kann verwendet werden, um auf das Erfüllen einer bestimmten Bedingung zu warten, bevor die Testausführung fortgesetzt wird.
+    # Warten, bis das Element sichtbar ist.
+    # Warten, bis das Element verfügbar ist.
+    # Warten, bis das Element anklickbar ist.
+    # Warten, bis das Element nicht verfügbar ist.
+    Ausnahmen:
+    TimeoutException, ElementNotVisibleException, ElementNotSelectableException, StaleElementReferenceException
+    Syntax:
+    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(TIMEOUT));
+
+
+80. Wo befinden sich die dynamischen Teile im UI-Test und was sind sie?
+
+    # Dynamische Teile in UI-Tests sind Bereiche auf Webseiten oder in Anwendungen, die sich ändern oder reagieren, wenn Benutzer mit ihnen interagieren.
+      Zum Beispiel kann es sich um eine Live-Ereignisliste auf einer Webseite oder eine Suchergebnisliste handeln.
+      Diese Teile ändern sich automatisch oder reagieren, wenn Benutzer auf der Seite navigieren oder Aktionen ausführen.
+      Das Testen dieser dynamischen Teile ist wichtig, um sicherzustellen, dass die Anwendung oder Webseite wie erwartet funktioniert.
+    # Dynamischer Inhalt: sozialen Medien-Feed oder einem Live-Veranstaltungskalender.
+    # Benutzerformulare: Suchformular oder ein Anmeldeformular.
+    # Meldungsausgaben: Wenn ein Benutzer einen Vorgang abschließt oder Fehlermeldungen auftreten, werden Ausgabemeldungen angezeigt.
+      Diese Meldungen können sich aufgrund von Benutzerinteraktionen ändern.
+    # Cookie-Benachrichtigungen: Cookie-Richtlinien zu akzeptieren oder abzulehnen.
+    # Grafiken und Diagramme: Grafiken oder Diagramme auf Seiten können dynamische Daten darstellen und sich je nach Benutzerinteraktion ändern.
+
+81. Was ist POM (Page Object Model)?
+
+    # Eine Datei, die das gesamte Projekt verwaltet.
+    # POM hilft bei der Automatisierung von Webanwendungen, den Code nachhaltiger, lesbarer und leichter wartbar zu machen.
+    # Wenn Sie einen Maven-Befehl ausführen, sollte alles über die pom.xml-Datei erledigt werden.
+
+
+
+82. In welchen Browsern führen Sie Ihren Code aus?
+
+- Ich verwende derzeit Google Chrome und Mozilla Firefox und Safari.
+
+
+83. Wie organisieren Sie Test-Szenarien?
+
+??????
+
+84. Hast du jemals manuelle Tests durchgeführt?
+Ja, ich mache immer manuelle Tests, bevor ich mit der Automatisierung beginne. Denn manuelle Tests helfen mir, schnell zu überprüfen, ob die grundlegende Funktionalität der Software funktioniert.
+Außerdem kann ich durch Überprüfung, ob neue Dinge hinzugefügt wurden, Fehler frühzeitig finden. Auf diese Weise baue ich eine solide Grundlage, bevor ich mit der Automatisierung beginne.
+Ich verwende Tools wie Jira-Xray, um meine manuellen Tests sowie Testmanagement- und Berichterstattungsaufgaben durchzuführen.
+
+85. Was ist Linux und wofür wird es verwendet?
+
+Linux ist Open Source, das bedeutet, dass sein Quellcode der Öffentlichkeit zugänglich ist und für Testzwecke angepasst werden kann.
+Es bietet eine leistungsstarke Befehlszeilenumgebung für die Testautomatisierung, funktioniert in verschiedenen Umgebungen und ist mit beliebten Testwerkzeugen wie Selenium und JUnit kompatibel.
+Es ist eine stabile Plattform für die Entwicklung und Durchführung von Tests.
+
+Linux ist ein Betriebssystem, das wie Windows oder macOS auf Computern läuft.
+Der Unterschied besteht darin, dass Linux eine quelloffene Software ist, was bedeutet, dass jeder den Quellcode sehen, ändern und weitergeben kann.
+Dies hat zu einer Vielzahl von Linux-Distributionen geführt, darunter bekannte Namen wie Ubuntu, Fedora und Debian.
+
+
+
+
+
+Extra Informationen:
+71.
+Wie automatisieren Sie User Stories aus JIRA?
+    # Sehen Sie sich die Beschreibung der agilen Story an.
+    # Erstellen Sie eine Feature-Datei und speichern Sie sie als Jira story.feature.
+    # Fügen Sie das Szenario hinzu, das in den Akzeptanzkriterien zu finden ist.
+    # Führen Sie den CukesRunner mit dryRun=true aus.
+    # Implementieren Sie die Methoden.
+    # BEVOR SIE DIE TESTFÄLLE IN JIRA AUTOMATISIEREN, TESTEN SIE SIE IMMER MANUELL.
+Wie integrieren Sie Selenium mit Jira?
+    # Selenium hat keine eingebaute Integration mit Jira.
+    # Es gibt jedoch Plugins, die das Selenium-Testframework mit Jira integrieren.
+    # Xray (Jira-Plugin, Jenkins-Plugin).
+    # Zephyr (Jira-Plugin).
+
+
+76.
+
+1. Automatisierte Tests:  Dies ist einer der Hauptanwendungsbereiche von Selenium. Unternehmen nutzen Selenium, um automatisierte Tests für Webanwendungen zu erstellen und sicherzustellen, dass sie ordnungsgemäß funktionieren.
+
+2. (CI/CD): Selenium wird oft in den Prozess der kontinuierlichen Integration und kontinuierlichen Bereitstellung (CI/CD) integriert, um automatisierte Tests durchzuführen, wenn Code in ein Repository hochgeladen wird.
+
+4. Regressionstests: Selenium wird für Regressionstests eingesetzt, um sicherzustellen, dass Änderungen in einer Webanwendung keine unerwünschten Auswirkungen auf bestehende Funktionen haben.
+
+6. Bildschirmaufzeichnung:  Selenium ermöglicht die Aufzeichnung des Bildschirms während der Testausführung, was bei der visuellen Fehlererkennung hilfreich ist.
+
+6. Web-Interaktionen:  Selenium ermöglicht die Automatisierung von Aufgaben wie das Ausfüllen von Webformularen und das Hochladen von Daten in Webanwendungen.
+
+3. Web-Scraping: Selenium wird für die Extraktion und Analyse von Daten von Websites genutzt, besonders hilfreich bei der Sammlung von Informationen von verschiedenen Websites, z.B. für Marktforschung oder Wettbewerbsanalyse.
+
+7. Leistungstests:  Selenium kann auch für Leistungstests eingesetzt werden, um die Reaktionszeiten einer Website unter verschiedenen Lastbedingungen zu überwachen und zu analysieren.
+
+
+Vorteile von Selenium
+•   Open Source – riesige Community, gemeinsame Weiterentwicklung, sehr viele Blogs und Hilfestellungen, viele Einträge auf Stackoverflow
+•   Keine Lizenzkosten, keine Abhängigkeit von großen kommerziellen Anbietern
+•   Unterstützung durch größte IT Konzerne wie Google, Facebook, Microsoft, sowie kleinere Anbieter wie SouceLabs, BrowserStack, Applitools, PerfectoTools etc.
+•   Einbindung in alle gängigen Programmiersprachen (Java, C#, JavaScript, Python, Ruby, Perl, …)
+•   Breite Browser und OS Unterstützung ( FF, IE, Chrome, Safari, Windows, Linux, MacOS )
+•   Effiziente Kommunikation mit Web Browsern
+•   Keine physikalische Abbildung von Benutzereingaben über Maus und Tastatur in der interaktiven Session notwendig
+•   Unterstützung von Headless Mode Testautomatisierung (auch in Containern)
+•   Parallelisiertes Testen in gleicher OS Session möglich
+•   Parallelisiertes Testen auf Remote Infrastruktur (auch in der Cloud mit Anbietern wie BrowserStack oder SauceLabs) sehr einfach
+•   Sehr schnelle Ausführung im Vergleich zu anderen auf UI spezialisierten Testautomatisierungswerkzeugen (Ranorex / Silk)
+
+Nachteile von Selenium
+•   Nur zum Testen von UI Anwendungen, und zwar Web Applikationen, geeignet
+•   Kein kommerzieller Support verfügbar
+•   Lange Wartezeiten auf einige Bug-fixes
+•   Kein Support von speziellen (z.T. veralteten) Web-Technologien wie Silverlight und Flash
+•   Kein integriertes, detailliertes Reporting (zusätzliche Pakete erforderlich)
+•   Tests werden programmiert, Entwickler-Skills notwendig
+
+
+79.
+
+
+Zeitüberschreitungen (Timeouts): Die implizite Wartezeit legt eine Standard-Zeitüberschreitung für die gesamte Testlaufzeit fest.
+
+Bedingung (Condition): Die implizite Wartezeit wartet darauf, dass ein Element auf der Seite erscheint.
+
+Umfang (Scope): Die implizite Wartezeit gilt global.
+
+Ausnahme (Exception): Bei der impliziten Wartezeit wird eine NoSuchElementException ausgelöst, wenn der WebDriver das Element innerhalb der angegebenen Zeitüberschreitung nicht finden kann.
+
+81.
+
+Examplar:
+Stellen Sie sich vor, Sie bauen mit LEGO-Steinen. Anfangs ist es einfach, weil Sie nur wenige Teile haben. Aber je mehr Sie bauen, desto schwieriger wird es, das richtige Teil zu finden.
+Das Page Object Model (POM) ist wie das Sortieren Ihrer LEGO-Steine in separate Kisten. Wenn Sie ein Teil benötigen, gehen Sie zur richtigen Kiste. Wenn sich ein Teil ändert, müssen Sie nur eine Kiste aktualisieren, nicht Ihre gesamte Kreation.
+Es hält Ihr LEGO-Projekt organisiert, genauso wie POM Ihren Code für Webtests sauber hält.
+
+
+84.
+
+Generally, a manual tester studies the software utilisation and creates test cases on the basis of scenarios, and feedback from the users.
+A manual tester executes the test cases, finds defects and bugs, and then writes a report on the possible fixes. On completion of the test, this test report needs to be sent to the test lead or moderator.
+
+Generell studiert ein manueller Tester die Softwarenutzung und erstellt Testfälle auf der Grundlage von Szenarien und Rückmeldungen von den Benutzern.
+Ein manueller Tester führt die Testfälle aus, findet Mängel und Fehler und verfasst dann einen Bericht über mögliche Korrekturen.
+Nach Abschluss des Tests muss dieser Testbericht an den Testleiter oder Mode-rator gesendet werden.
+
+
+85.
+
+Was ist Linux?
+Von Smartphones über Autos, Supercomputer und Haushaltsgeräte, Heimcomputer bis hin zu Unternehmensservern - das Linux-Betriebssystem ist überall präsent.
+Linux existiert seit den mittleren 1990er Jahren und hat seitdem eine weltweite Benutzerbasis erreicht.
+Tatsächlich ist Linux überall zu finden: Es steckt in Ihren Telefonen, Ihren Thermostaten, in Ihren Autos, Kühlschränken, Roku-Geräten und Fernsehern.
+Es betreibt auch den Großteil des Internets, alle Top 500 Supercomputer der Welt und die weltweiten Börsen.
+Aber abgesehen davon, dass es die bevorzugte Plattform für Desktops, Server und eingebettete Systeme auf der ganzen Welt ist, ist Linux eines der zuverlässigsten, sichersten und sorgenfreiesten Betriebssysteme überhaupt.
+Genau wie Windows, iOS und Mac OS ist Linux ein Betriebssystem. Tatsächlich wird eines der beliebtesten Plattformen auf dem Planeten, Android, vom Linux-Betriebssystem angetrieben.
+Ein Betriebssystem ist eine Software, die alle mit Ihrem Desktop oder Laptop verbundenen Hardware-Ressourcen verwaltet. Einfach ausgedrückt, verwaltet das Betriebssystem die Kommunikation zwischen Ihrer Software und Ihrer Hardware.
+Ohne das Betriebssystem (OS) würde die Software nicht funktionieren.
